@@ -1,0 +1,260 @@
+title User Login
+alt The user has no cookie stored
+User->System: Enter user information
+alt correct login information
+System->System: Write log entry
+System->User: Redirect to the main page and ask for storing of cookies
+opt User wants to use cookies
+User->System: Accept storing of cookies
+System->System: Store cookie for further usage
+end
+else incorrect login information
+System->System: Write log entry
+System->System: Increment wrong-login counter
+System->User: Show error message
+else maximum number of incorrect logins reached
+System->System: Write log entry
+System->User: Show error message
+end
+else The user already has a cookie stored
+User->System: Request login
+alt The cookie is still valid
+System->System: Write log entry
+System->User: Automatically log in user
+else The cookie is invalid
+System->System: Write log entry
+System->User: Show error message
+
+
+title User logout
+User->System: Request logout
+alt logout possible
+System->User: Logout User and show notification
+System->System: Write log entry
+System->User: Redirect to the login page
+else already logged out on another tab
+System->User: Show notification and redirect to the login page
+
+
+title Switching the Coffee Machines State
+User->System: Request switch of the coffee machines state
+System->User: Report current state and ask for confirmation
+User->System: Confirm interaction
+System->System: Switch state of the coffee machine and unset flag
+System->System: Write log entry
+System->User: Report switched state
+
+
+title Autostart
+User->System: Physically approach the coffee machine
+alt The coffee machine is on
+System->User: Notify that the machine is already on.
+else The coffee machine is off
+System->System: Turn on coffee machine
+System->System: Write log entry
+System->User: Notify that the machine has been turned on.
+
+
+title Manual Override
+User->System: Activate Manual Override Switch
+System->System: Switch state
+System->System: Write log entry
+System->User: Notify of override status
+
+
+title Create Account
+User->Administrator: Request creation of user account and give user information
+Administrator->System: Enter user information and request creation of an account
+alt The user can be created
+System->System: Create user account and store it in the database
+System->System: Write log entry
+System->Administrator: Report creation of the user account
+else A user with the entered user name or email address already exists
+System->Administrator: Show error message
+else One or more of the entered information do not comply with the rules.
+System->Administrator: Show error message
+
+
+title Delete Account
+Administrator->System: Search query with user information
+alt Account exists
+System->Administrator: Show matches from the database
+Administrator->System: Pick wanted match and request deletion
+alt the administrator picks a valid account
+System->Administrator: Ask for confirmation
+Administrator->System: Confirm interaction
+System->System: Delete account
+System->System: Write log entry
+System->Administrator: Report deletion of the account
+else the adminstrator tries to delete him/herself
+System->Administrator: Notify administrator of invalid operation
+end
+else no account matches
+System->Administrator: Show error message
+
+
+title Update Account
+Administrator->System: Search query with user information
+alt Account exists
+System->Administrator: Show matches from the database
+Administrator->System: Pick wanted match, activate updating and enter new information.
+System->Administrator: Ask for confirmation
+Administrator->System: Confirm interaction
+System->System: Update account information
+alt Update possible
+System->System: Write log entry
+System->Administrator: Report updating of the account
+else Another user with identical user name/email address already exists
+System->Administrator: Show error message
+else Entered user information does not comply with the rules
+System->Administrator: Show error message
+end
+else no account matches
+System->Administrator: Show error message
+
+
+title Deactivate Account
+Administrator->System: Search query with user information
+alt Account exists
+System->Administrator: Show matches from the database
+Administrator->System: Pick wanted match and request deactivation
+alt the administrator picks a valid account
+System->Administrator: Ask for confirmation
+Administrator->System: Confirm interaction
+System->System: Deactivate account
+System->System: Write log entry
+System->Administrator: Report deactivation of the account
+else the adminstrator tries to deactivate him/herself
+System->Administrator: Notify administrator of invalid operation
+end
+else no account matches
+System->Administrator: Show error message
+
+
+title Search for User
+User->System: Search query with user information
+alt Account exists
+System->User: Show matches from the database
+User->System: Pick wanted match
+System->System: Write log entry
+System->User: Show user profile
+else no account matches
+System->User: Show error message
+
+
+title View Statistics
+User->System: Choose activity to view statistics for
+alt Data exists
+System->System: Write log entry
+System->User: Show a histogram with statistics about the activity from start of data collection
+else no data for the activity exists
+System->User: Show error message in place of the diagram
+
+
+title Change Statistics Viewing Interval
+alt user uses the search field
+User->System: Enter desired start date
+else user uses the arrows
+User->System: Activate button to switch interval
+end
+alt data exists
+System->User: Show a histogram with statistics from the new start date to the end date
+else no data for the interval exists
+System->User: Show error message in place of the diagram
+end
+
+
+title Change Statistics Viewing Interval
+alt user uses the search field
+User->System: Enter desired start date
+else user uses the arrows
+User->System: Activate button to switch interval
+end
+System->System: Write log entry
+alt data exists
+System->User: Show a histogram with statistics from the new start date to the end date
+else no data for the interval exists
+System->User: Show error message in place of the diagram
+end
+
+
+title Change Statistics Viewing Filter
+User->System: Search query with user information
+alt Account exists
+System->User: Show matches from the database
+User->System: Pick wanted match to apply as filter
+System->System: Write log entry
+alt data exists
+System->User: Show a histogram with statistics of the user and a pie chart with users procentual statistics
+else no data exists
+System->User: Show error message in place of the diagram
+end
+else no account matches
+System->User: Show error message
+
+
+title Set Flag
+alt interaction possible
+User->System: Interact with flag
+System->User: Show current state of the flag and ask for confirmation
+User->System: Confirm interaction
+System->System: Write log entry
+System->User: Notify of change
+else the flag has already been set by another user
+System->User: Show error message
+
+
+title Set Automatic Activation Feature
+User->System: Interact with automatic activation feature box
+System->User: Display information and ask for confirmation
+User->System: Confirm interaction
+System->User: Notify of change
+
+
+title Password Recovery
+User->System: Request password recovery
+System->User: Show form to enter account data
+alt User wants to use email for identification
+User->System: Enter email address
+else User wants to use username for identification
+User->System: Enter username address
+end
+alt User exists
+System->User: Send an email to the user linking to a password recovery page
+User->User: Open email and follow provided link
+User->System: Fill out password recovery form
+System->System: Update password with provided data
+System->System: Write log entry
+System->User: Notify of changed password
+else User does not exist
+System->User: Show error message
+end
+
+
+title Add administrator rights to user
+Administrator->System: Activate administrator list and enter user data to search for user
+alt Account exists
+System->Administrator: Show list of matching user
+Administrator->System: Pick desired match from the list
+alt normal execution
+System->System: Give administrator priveleges to the user
+System->System: Write log entry
+System->Administrator: Notify of change by displaying the newly added administrator in the list
+else the administrator does not have administrator priveleges anymore
+System->Administrator: Display error message and return to main page
+end
+else no account matches
+System->Administrator: Show error message
+
+
+title Revoke administrator rights to user
+Administrator->System: Choose Administrator from the administrator list and request revokation of priveleges
+alt normal execution
+System->System: Demote the chosen administrator to a user
+System->System: Write log entry
+System->Administrator: Notify of change by removing the former administrator from the administrator list
+else the adminstrator tries to delete him/herself
+System->Administrator: Notify administrator of invalid operation
+else the administrator does not have administrator priveleges anymore
+System->Administrator: Display error message and return to main page
+
