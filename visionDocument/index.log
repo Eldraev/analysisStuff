@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.15)  31 MAR 2015 22:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.15)  31 MAR 2015 22:39
 entering extended mode
 **index.tex
 ("D:\Documents\projects\2dv103\Analysis Stuff\visionDocument\index.tex"
@@ -380,13 +380,7 @@ LaTeX Font Warning: Font shape `OMS/qbk/m/n' undefined
 [1
 
 
-]
-Overfull \hbox (0.18764pt too wide) in paragraph at lines 58--59
-[]\OT1/qbk/m/n/10 Higher pro-duc-tiv-ity with fewer, and shorter, in-ter-rup-ti
-ons through-
- []
-
-[2
+] [2
 
 ] [3
 
@@ -396,11 +390,11 @@ ons through-
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 203.
+(Font)              <7> on input line 202.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 203.
+(Font)              <5> on input line 202.
 
-Overfull \hbox (56.14954pt too wide) in paragraph at lines 203--219
+Overfull \hbox (56.14954pt too wide) in paragraph at lines 202--219
 [][] 
  []
 
@@ -418,7 +412,7 @@ Here is how much of TeX's memory you used:
  5099 multiletter control sequences out of 15000+200000
  38062 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,9n,21p,312b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,21p,312b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q-rm.
 enc}{C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q-r
 m-sc.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
@@ -426,7 +420,7 @@ m-sc.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 re/qbkb.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/t
 ex-gyre/qbkr.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
 lic/tex-gyre/qbkri.pfb>
-Output written on index.pdf (8 pages, 108675 bytes).
+Output written on index.pdf (8 pages, 108888 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
