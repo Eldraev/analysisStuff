@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.15)  31 MAR 2015 23:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.15)  31 MAR 2015 23:50
 entering extended mode
 **index.tex
 ("D:\Documents\projects\2dv103\Analysis Stuff\useCases\index.tex"
@@ -1301,12 +1301,57 @@ ine 48.
 
  <D:/Documents/projects/2dv103/Analysis Stuff/useCases/sequenceDiagrams/revokeA
 dminRights.png>])
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(144.54pt, 628.23686pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=628.23686pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=35.27pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<useCaseDiagram/diagram.jpg, id=140, 1217.54875pt x 932.48375pt>
+File: useCaseDiagram/diagram.jpg Graphic file (type jpg)
+
+<use useCaseDiagram/diagram.jpg>
+Package pdftex.def Info: useCaseDiagram/diagram.jpg used on input line 55.
+(pdftex.def)             Requested size: 572.248pt x 438.26743pt.
+ [36
+
+
+
+ <D:/Documents/projects/2dv103/Analysis Stuff/useCases/useCaseDiagram/diagram.j
+pg>]
 ("D:\Documents\projects\2dv103\Analysis Stuff\useCases\index.aux") ) 
 Here is how much of TeX's memory you used:
- 2517 strings out of 493921
- 40317 string characters out of 3144864
+ 2524 strings out of 493921
+ 40470 string characters out of 3144864
  100118 words of memory out of 3000000
- 5730 multiletter control sequences out of 15000+200000
+ 5734 multiletter control sequences out of 15000+200000
  31819 words of font info for 23 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,5n,21p,390b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1317,9 +1362,9 @@ Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qbkb.pfb
 ><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qbk
 r.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyr
 e/qbkri.pfb>
-Output written on index.pdf (37 pages, 582055 bytes).
+Output written on index.pdf (38 pages, 674599 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

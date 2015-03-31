@@ -16,3 +16,4 @@
 \contentsline {section}{\numberline {16}Password Recovery}{30}
 \contentsline {section}{\numberline {17}Add Administrator Rights To User}{32}
 \contentsline {section}{\numberline {18}Revoke Administrator Rights from User}{34}
+\contentsline {section}{\numberline {19}Use Case Diagram}{36}
