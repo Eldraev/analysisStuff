@@ -26,3 +26,13 @@
   \begin{enumerate}[label=\arabic*., leftmargin=*]
 }
 {\end{enumerate}\vspace{3mm}}
+
+\newenvironment{seq}[1] {
+\newgeometry{top=1in, left=1in, bottom=1in, right=1in}
+\begin{center}
+\includegraphics[scale=0.6]{sequenceDiagrams/#1}
+\end{center}
+\restoregeometry
+\clearpage
+}
+{}
