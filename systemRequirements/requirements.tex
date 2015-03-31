@@ -1,0 +1,123 @@
+\section{Introduction}
+
+\subsection{Purpose}
+
+The purpose of this document is to enunciate the functional and non-functional
+requirements related to the system as a whole.
+
+
+\subsection{Project Description}
+
+Within the company \textit{Softwerk AB} a constant supply of coffee is needed to ensure maximal work efficiency. To be able to keep a steady flow of this liquid energy, a coffee machine control system will be created to manage the brewing of coffee remotely and manage interaction between the coffee machine and the user.
+
+
+\subsection{Scope}
+
+The scope of this document is keeped within the frames of the requirements that concerns the system, in one way or another. Real-world reqirements is kept to a minimum. All information and data is gathered from meetings with the customer, as well as a project description provided by the same.
+
+\section{System-Wide Functional Requirements}
+
+\begin{itemize}
+\item Reporting: The status of the coffee machine must be given in a
+human readable format.
+\item Interacting: The system must provide means to interact with the
+coffee machine in order to start and stop the machine.
+\item Automatic Start: The system may start automatically if the user is
+within a specified distance from the machine.
+\item User Management: Users must have an account, and those accounts
+must be managed by an administrator.
+\item Statistics: Users must be able to, in a human readable format, view statistics of how often, by whom, and when the coffee machine is in use.
+\item Manual Override: The system should be able to be manually overridden
+to let the user circumvent the automatic system.
+\end{itemize}
+
+\section{System Qualities}
+
+\subsection{Usability}
+
+\begin{itemize}
+\item Any employee of Softwerk AB must be able to operate the system, regardless of profession.
+\item The statistics should be displayed in such a way that the customer thinks it is easy to understand.
+\end{itemize}
+
+\subsection{Reliability}
+
+\begin{itemize}
+\item The system must accessible at all times.
+\item After the startup of the hardware, the system must be ready to use without any user intervention.
+\end{itemize}
+
+\subsection{Performance}
+
+\begin{itemize}
+\item The system must be able to handle at least as many users at once as there is employees at Softwerk.
+\item The startup time of the system should be less than two minutes.
+\item Any request from the user should be completed within 10 seconds.
+\end{itemize}
+
+\subsection{Supportability}
+
+\begin{itemize}
+\item The system must be able to run on the Operating Systems that the company requests.
+\item The system must be able to run on the Web Browsers that the company requests.
+\end{itemize}
+
+
+
+\section{System Interfaces}
+
+\subsection{User Interfaces}
+
+\begin{itemize}
+\item The system should provide support for three different interfaces. All three interfaces should provide the same functionality.
+  \begin{itemize}
+  \item One web interface to use in browsers.
+  \item One interface to use on Android 4.x smartphones.
+  \item One interface to use on Android 5.x smartphones.
+  \end{itemize}
+
+\item The web interface should have a responsive design regarding CSS Media Queries.
+
+\item The following elements should be graphically represented in the user interface:
+  \begin{itemize}
+  \item The statistics.
+  \item The status of the coffee machine.
+  \item Optionally a video stream of the coffee machine.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Interfaces to External Systems or Devices}
+
+\subsubsection{Hardware Interfaces}
+
+\begin{itemize}
+\item The system must have a semiconductor relay to switch the state of any hardware connected to it.
+\item The system should have a phyiscal state-switch override button.
+\end{itemize}
+
+\subsubsection{Communications Interfaces}
+
+\begin{itemize}
+\item The system needs to be able to communicate with other systems either through a Local Area Network or trough a World Area Network.
+\end{itemize}
+
+\section{System Constraints}
+
+\begin{itemize}
+\item The system will be run on a Raspberry Pi Model B which has the following constraints:
+  \begin{itemize}
+  \item It is a ARM platform, meaning that the compiled software might not work on a x86 platform.
+  \item It has 512mb of memory, which might have an impact on response times and overall stability of the system.
+  \end{itemize}
+  \end{itemize}
+
+\section{System Documentation}
+
+\begin{itemize}
+\item The system should be delivered with a user manual which must fulfill the following requirements:
+  \begin{itemize}
+  \item All parts of the document must be written in such a way that the customer will be able to follow them.
+  \item It must have a guide on how to install the system.
+  \item It must have a instruction manual on how to operate the system.
+  \end{itemize}
+\end{itemize}

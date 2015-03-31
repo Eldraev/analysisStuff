@@ -1,0 +1,28 @@
+\usepackage{enumitem}
+
+\usepackage[a4paper, top=1.25in, bottom=1.25in, left=2.25in, right=1.25in, marginparsep=0.25in, marginparwidth=1.25in]{geometry}
+
+\newenvironment{cpart}[1] {
+  \reversemarginpar
+  \marginpar{
+    \vspace{3.2mm}
+    \textbf{#1}
+  }
+}
+{\vspace{3mm}}
+
+\newenvironment{cpartList}[1] {
+  \reversemarginpar
+  \marginpar{
+    \vspace{3mm}
+    \textbf{#1}
+  }
+  \begin{enumerate}[leftmargin=*]
+}
+{\end{enumerate}\vspace{3mm}}
+
+\newenvironment{innerList}[3] {
+  \item[#1 #2)] #3
+  \begin{enumerate}[label=\arabic*., leftmargin=*]
+}
+{\end{enumerate}\vspace{3mm}}

@@ -1,0 +1,41 @@
+\section{Manual Override}
+
+% If you don't have any list items for the alternate
+% flows or the exception flows, change cpartList to cpart
+% and just emphasize that with \textit{none}.
+
+% --Description--
+%
+\begin{cpart}{Description}
+In case the user wants to go around the system and turn the coffee machine on or off this use case is used.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpart}{Preconditions}
+The user is physically close to the machine.
+\end{cpart}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The user activates the manual override switch.
+  \item The system switches the state of the coffee machine
+\item The system writes a log entry for the activity of the user with the current time and date.
+  \item The system notifies other users that the system is in manual override mode.
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+  All users are notified of override state.
+\end{cpart}
+
+\clearpage

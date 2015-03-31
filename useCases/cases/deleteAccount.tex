@@ -1,0 +1,54 @@
+\section{Delete Account}
+
+% --Description--
+%
+\begin{cpart}{Description}
+The administrator manages all user accounts including the deletion of accounts. The administrator can find a user by putting in either the user name or the email address.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+Administrator
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpart}{Preconditions}
+The system is already setup and an administrator exists. The administrator is logged in to the system.
+\end{cpart}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The administrator searches for a user by putting in the users information.
+  \item The system shows a list of users fitting the search criteria.
+  \item The administrator chooses the user he wants to delete and requests deletion.
+  \item The system asks for confirmation.
+  \item The administrator confirms.
+  \item The system notifies the administrator of the deletion of the users account.
+\item The system writes a log entry for the activity of the user with the current time and date.
+\end{cpartList}
+
+% --Exception Flows--
+%
+\begin{cpartList}{Exception Flows}
+  \begin{innerList}{4}{a}{No user with the entered user information can be found.}
+    \item The system notifies the administrator.
+    \item The use case is exited.
+  \end{innerList}
+
+  \begin{innerList}{4}{b}{The administrator tries to delete him-/herself.}
+    \item The system notifies the administrator that an administrator cannot delete him-/herself.
+    \item The administrator is routed back to the administrator page.
+  \end{innerList}
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+The user account has been deleted.
+\end{cpart}
+
+\clearpage

@@ -1,0 +1,219 @@
+\section{Introduction}
+
+\subsection{Purpose}
+
+The purpose of this document is to outline the vision for the system of the Coffee Machine and describe the high-level requirements. It will concentrate on the following:
+
+\begin{itemize}
+
+\item Identify the problems and constraints that the customer is experiencing with the current prototype of the product.
+\item Collect and explain the customer’s demands and requests on the new system.
+\item Introduce a solution.
+\item Identify any issues or constraints with the solution.
+\item Identify the stakeholders and users.
+\item Present the product development team.
+
+\end{itemize}
+
+\subsection{Scope}
+
+The Scope of this document is the Coffee Managment System for Softwerk AB. The System is in development by Team 5 and is developed for the ISEP project. The Information for this document was collected from the ISEP Introduction document and two meetings with the customer.
+
+\clearpage
+
+\section{Problem Statement}
+
+\subsection{The problem of:}
+
+\begin{itemize}
+\item No user friendly way to remotely switch on/off the coffee machine.
+\item Not being able to remotely see the current status of the coffee machine.
+\item Not having any statistics on by who, when, and how often the coffee machine is used.
+\end{itemize}
+
+\subsection{Affects:}
+
+\begin{itemize}
+\item The employees of the company.
+\item The coffee budget.
+\item The overall productivity of the employees in the company.
+\item 
+\end{itemize}
+
+\subsection{Causing the impact of:}
+
+\begin{itemize}
+\item An unreliable way to control the coffee maker.
+\item An unnecessarily complicated way to control the coffee machine via SSH and VPN.
+\item No one to be held responsible if the coffee machine is switched on/off when it is not supposed to.
+\item No way to keep track of coffee expenses, and the overall coffee consumption in the company.
+\end{itemize}
+
+\subsection{A solution provides:}
+
+\begin{itemize}
+\item Comfortability and security, knowing that the coffee always will be there when you arrive at the office.
+\item An overall higher usability of the coffee machine.
+\item A solid base to develop new features on top of.
+\item Higher productivity with fewer, and shorter, interruptions throughout the day to check the state of the coffee machine.
+\end{itemize}
+
+\clearpage
+
+\section{Product Features}
+
+\subsection{Musts}
+
+\textit{The solution must:}
+
+\begin{itemize}
+\item have a web-interface to control the coffee machine through the raspberry pi.
+\item have a mobile friendly design.
+\item have a user management system allowing for users to be created, updated, deleted and deactivated.
+\item be able to view the current status of the coffee machine and change it.
+\item provide secured login through the use of a SSL certificate.
+\end{itemize}
+
+\subsection{Shoulds}
+
+\textit{The solution should:}
+
+\begin{itemize}
+\item provide protection from account hacking by locking any user account that gets accessed with incorrect data too many times.
+\item provide a comfortable way to log in without having to enter login data.
+\item be able to give information about every user of the program.
+\item show statistics filtered by users and time frame.
+\item keep track of statistics concerning coffee consumption.
+\item have a status history to keep track of interactions.
+\item have a visual representation of statistics in form of a pie chart and a histogram.
+\end{itemize}
+
+\clearpage
+
+\subsection{Mays}
+
+\textit{The solution may:}
+
+\begin{itemize}
+\item be ported to android.
+\item enable automatic start when users approach.
+\item display a video of the coffee machine for the user to see if the coffee is done.
+\item be able to recognize if coffee is done by the use of image recognition.
+\item have an exterior design, wooden with a big switch that changes the state of the coffee machine.
+\item have a physical button that changes the state of the coffee machine.
+\item have an indicator to show that the users needs to buy more coffee.
+\end{itemize}
+
+\section{Constraints}
+
+\subsection{Design}
+
+\begin{itemize}
+\item The system must use a layered architecture. A server in the bottom, using an API, with an abstraction layer in the middle that communicates with the website on top.
+\item The user interface must be responsive and modern.
+\item The system should be based on the existing proof of concept prototype hardware, which is a Raspberry PI with a semiconductor relay connected to it.
+\end{itemize}
+
+\subsection{Time}
+
+\begin{itemize}
+\item The project must be done and all documentation must be handed in by the end of May.
+\item The first working prototype must be presented on March 11 at the latest.
+\end{itemize}
+
+\subsection{Hardware}
+
+\begin{itemize}
+\item The system must use the provided hardware parts - a Raspberry PI, a semiconductor relay, and an extension cord.
+\item The user hardware to access the coffee machine includes mobile devices running android, PC's (Linux, Windows), and Macs. %Not sure if they actually do use linux pcs and macs
+\end{itemize}
+
+\section{Risks}
+
+\textit{Risks of the project include:}
+
+\begin{itemize}
+
+\item Insufficient knowledge of the technologies to be used (Raspberry Pi,
+Android, ...).
+\item Only part of the team has the Raspberry PI physically available.
+\item Bad communication with the customer.
+\item Not fully understanding the customer's requirements 
+\item Insufficient amount of testing due to the fact that only one part of the team has the Raspberry Pi
+\item More members drop out from the project, which could lead to a staff shortage
+\item Too short of a time budget which may cause an unfinished, or insufficiently developed product.
+\end{itemize}
+
+\clearpage
+
+\section{Stakeholders and User Descriptions}
+
+\subsection{Stakeholders}
+
+\begin{itemize}
+\item \textbf{Softwerk AB, Dr. Rüdiger Lincke}
+\begin{itemize}
+\item The client of the project.
+\item Monitors the project.
+\item Evaluates the solution quality and design.
+\end{itemize}
+
+\item \textbf{Softwerk AB, the employees}
+\begin{itemize}
+\item The users of the product.
+\item Involved in the late testing part of the project.
+\end{itemize}
+
+\item \textbf{Team 5 at the ISEP project}
+\begin{itemize}
+\item Directly involved with the project.
+\item Individually graded based on effort.
+\item Individually graded based on the solution quality.
+\end{itemize}
+
+\item \textbf{Jesper Andersson, ISEP responsible}
+\begin{itemize}
+\item Monitors the project.
+\item Evaluates the solution quality and design.
+\item Sets the grades of the projects.
+\end{itemize}
+\item \textbf{Apostolos Ampatzoglou, ISEP responsible}
+\begin{itemize}
+\item Monitors the project.
+\item Evaluates the solution quality and design.
+\item Sets the grades of the projects.
+\end{itemize}
+\end{itemize}
+
+\subsection{User Descriptions}
+\begin{itemize}
+\item \textbf{The employees of Softwerk AB.}
+\begin{itemize}
+\item The employees are experienced developers.
+\item They have high expectations of the solution.
+
+\end{itemize}
+\end{itemize}
+
+\clearpage
+
+\section{Project Team Members}
+
+\begin{table}[h]
+\begin{tabular}{lll}
+\textbf{Resource} & \textbf{Project Role} & \textbf{Area Represented} \\  \hline \\
+
+Efrén Martin Garcia & Global Team Leader & Planning \\
+Joost Ouwerling & Dutch Team Leader & Planning, Development \\ \\
+\hdashline \\
+Ted Sundström & Analysist (Lead) and Tester & Analysis and Testing\\
+Florian Schiedt & Analysist and Tester & Analysis and Testing \\ \\
+\hdashline \\
+Jose Jimenez	Hernandez & Designer (Lead) & Design \\
+Robert Hallink & Designer & Design \\ \\
+\hdashline \\
+Julian Vos & Developer (Lead) & Development \\
+Ronald Kruizinga & Developer & Development \\
+
+\end{tabular}
+\end{table}
