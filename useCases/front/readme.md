@@ -6,6 +6,8 @@ So yeah, see this as a candidate for a universal front page. It's kind of dynami
 
 ## Usage
 
+Check the <code>../index.tex</code> file for a live example.
+
 This requires the geometry package. Add the directory named "front" into your document directory. Then add this code **before** your <code>\begin{document}</code>:
 
 ```
