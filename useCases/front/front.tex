@@ -1,0 +1,73 @@
+% Yeah, it's a lot of spaghetti code in here.
+% At least it works ;)
+
+\usepackage{textpos}
+\usepackage[pages=some]{background}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newcommand{\front}[4] {
+\backgroundsetup{
+scale=1,
+color=white,
+opacity=0.9,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{front/bg}
+  }%
+}
+
+\thispagestyle{empty}
+
+\begin{titlepage}
+\BgThispage
+\newgeometry{left=0mm,right=0mm,top=0mm,bottom=0mm}
+
+\begin{textblock}{10}(0.6,4.85)
+\resizebox{\linewidth}{!}{
+\begin{tabular}{@{}c@{}}
+\textbf{\large Coffee Management System}
+\\ [1ex] \hline \\ [-1.5ex]
+\textbf{\textit{#1}}
+\end{tabular}%
+}
+\end{textblock}
+
+
+
+\begin{textblock}{0.2}(11,4.45)
+\includegraphics[height=42mm]{front/coffee2}
+\end{textblock}
+
+\ifx&#2&%
+
+\else
+
+\begin{textblock}{4}(8.8,8.4)
+\resizebox{\linewidth}{!}{
+\begin{tabular}{@{}c@{}}
+
+\ifx&#3&%
+\textbf{\textit{\footnotesize Author}} \\
+\else
+\textbf{\textit{\footnotesize Authors}} \\
+\fi
+\\ [-2.5ex] \hline \\ [-2ex]
+#2 \\
+#3 \\
+#4
+\end{tabular}%
+}
+\end{textblock}
+\fi
+
+\begin{textblock}{0.6}(5.1,14)
+\includegraphics[scale=0.23]{front/isep2}
+\end{textblock}
+
+
+\restoregeometry
+\end{titlepage}
+
+\clearpage
+}
