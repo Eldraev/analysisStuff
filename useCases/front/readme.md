@@ -1,4 +1,6 @@
-## Front Page
+# Front Page
+
+![Screenshot](screenshot.JPG)
 
 So yeah, see this as a candidate for a universal front page. It's kind of dynamic as well, the author field adds an "s" if you add more than one author.
 
