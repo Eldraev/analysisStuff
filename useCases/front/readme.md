@@ -26,4 +26,4 @@ Anywho. You need to have four parameters, even if you leave some empty. If you h
 \front{Title}{Author}{}{}
 ```
 
-Feel free to improve the code if you have some time over. The code in this current state is a result from an insomnia driven Ted. I might as well have produced the code by banging my head on my keyboard X)
+Feel free to improve the code if you have some time over. The code in this current state is a result from an insomnia driven Ted. I might as well have produced the code by banging my head on my home built and arduino driven keyboard X)
