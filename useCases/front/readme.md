@@ -6,7 +6,13 @@ So yeah, see this as a candidate for a universal front page. It's kind of dynami
 
 ## Usage
 
-This requires the geometry package. Add the directory named "front" into your document directory. Then add this code:
+This requires the geometry package. Add the directory named "front" into your document directory. Then add this code **before** your <code>\begin{document}</code>:
+
+```
+\input{front/front.tex}
+```
+
+Then add this where you want your front page:
 
 ```
 \front{Title}{Author}{Author}{Author}
