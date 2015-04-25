@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.25)  25 APR 2015 20:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.25)  25 APR 2015 20:55
 entering extended mode
 **index.tex
 (C:\users\pmted_000\Documents\projects\analysisStuff\useCases\index.tex
@@ -761,28 +761,994 @@ LaTeX Font Info:    ... okay on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-109.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+
+Overfull \hbox (30.04863pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+<front/coffee2.png, id=4, 1679.27374pt x 1679.27374pt>
+File: front/coffee2.png Graphic file (type png)
+ <use front/coffee2.png>
+Package pdftex.def Info: front/coffee2.png used on input line 20.
+(pdftex.def)             Requested size: 119.48294pt x 119.50157pt.
+
+Overfull \hbox (141.80438pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (30.00552pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+<front/isep2.png, id=6, 1495.5875pt x 399.4925pt>
+File: front/isep2.png Graphic file (type png)
+ <use front/isep2.png>
+Package pdftex.def Info: front/isep2.png used on input line 20.
+(pdftex.def)             Requested size: 343.97789pt x 91.88133pt.
+
+Overfull \hbox (350.9416pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+<front/bg.png, id=7, 2489.3pt x 3521.155pt>
+File: front/bg.png Graphic file (type png)
+ <use front/bg.png>
+Package pdftex.def Info: front/bg.png used on input line 20.
+(pdftex.def)             Requested size: 597.4822pt x 845.04076pt.
+ [1
+
+
+{C:/Users/pmted_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/user
+s/pmted_000/Documents/projects/analysisStuff/useCases/front/bg.png (PNG copy)> 
+<C:/users/pmted_000/Documents/projects/analysisStuff/useCases/front/coffee2.png
+> <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/front/isep2.png
+>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(126.47249pt, 344.5629pt, 126.47249pt)
+* v-part:(T,H,B)=(90.3375pt, 682.43936pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=344.5629pt
+* \textheight=682.43936pt
+* \oddsidemargin=54.2025pt
+* \evensidemargin=54.2025pt
+* \topmargin=-18.9325pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=43.36243pt
+* \marginparsep=43.36243pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\index.toc)
+\tf@toc=\write4
+
+[1
+
+
+
+]
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/userLogin.t
+ex [1
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/userLogin.png, id=23, 568.1225pt x 1031.855pt>
+File: sequenceDiagrams/userLogin.png Graphic file (type png)
+
+<use sequenceDiagrams/userLogin.png>
+Package pdftex.def Info: sequenceDiagrams/userLogin.png used on input line 52.
+(pdftex.def)             Requested size: 340.87611pt x 619.11778pt.
+ [2
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/userLogin.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/loginMobile
+.tex)
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/userLogout.
+tex [3
+
+
+] [4]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/userLogout.png, id=33, 453.695pt x 414.54875pt>
+File: sequenceDiagrams/userLogout.png Graphic file (type png)
+
+<use sequenceDiagrams/userLogout.png>
+Package pdftex.def Info: sequenceDiagrams/userLogout.png used on input line 33.
+
+(pdftex.def)             Requested size: 272.2191pt x 248.73116pt.
+ [5
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/userLogout.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/logoutMobil
+e.tex)
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/switchState
+.tex
+Overfull \hbox (17.24158pt too wide) in paragraph at lines 1--1
+[]\OT1/qbk/b/n/14.4 Switching the State of the Cof-fee Ma-chine 
+ []
+
+[6
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/switchState.png, id=41, 426.59375pt x 375.4025pt>
+File: sequenceDiagrams/switchState.png Graphic file (type png)
+
+<use sequenceDiagrams/switchState.png>
+Package pdftex.def Info: sequenceDiagrams/switchState.png used on input line 26
+.
+(pdftex.def)             Requested size: 255.95822pt x 225.24323pt.
+ [7
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/switchState.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/autoActivat
+e.tex [8
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/autoStart.png, id=48, 436.63126pt x 430.60875pt>
+File: sequenceDiagrams/autoStart.png Graphic file (type png)
+
+<use sequenceDiagrams/autoStart.png>
+Package pdftex.def Info: sequenceDiagrams/autoStart.png used on input line 32.
+(pdftex.def)             Requested size: 261.98077pt x 258.36723pt.
+ [9
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/autoStart.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/manualOverr
+ide.tex [10
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/manualOverride.png, id=55, 342.27875pt x 321.2pt>
+File: sequenceDiagrams/manualOverride.png Graphic file (type png)
+
+<use sequenceDiagrams/manualOverride.png>
+Package pdftex.def Info: sequenceDiagrams/manualOverride.png used on input line
+ 41.
+(pdftex.def)             Requested size: 205.36882pt x 192.72148pt.
+ [11
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/manualOverride.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/createAccou
+nt.tex [12
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/createAccount.png, id=63, 763.85374pt x 515.9275pt>
+File: sequenceDiagrams/createAccount.png Graphic file (type png)
+
+<use sequenceDiagrams/createAccount.png>
+Package pdftex.def Info: sequenceDiagrams/createAccount.png used on input line 
+60.
+(pdftex.def)             Requested size: 458.31578pt x 309.55888pt.
+
+Overfull \hbox (5.34789pt too wide) in paragraph at lines 60--60
+ [] 
+ []
+
+[13
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/createAccount.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/deleteAccou
+nt.tex [14
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/deleteAccount.png, id=70, 482.80376pt x 648.4225pt>
+File: sequenceDiagrams/deleteAccount.png Graphic file (type png)
+
+<use sequenceDiagrams/deleteAccount.png>
+Package pdftex.def Info: sequenceDiagrams/deleteAccount.png used on input line 
+54.
+(pdftex.def)             Requested size: 289.6845pt x 389.0565pt.
+ [15
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/deleteAccount.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/deactivateA
+cc.tex [16
+
+
+])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/updateAccou
+nt.tex [17
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/updateAccount.png, id=81, 555.07375pt x 719.68875pt>
+File: sequenceDiagrams/updateAccount.png Graphic file (type png)
+
+<use sequenceDiagrams/updateAccount.png>
+Package pdftex.def Info: sequenceDiagrams/updateAccount.png used on input line 
+60.
+(pdftex.def)             Requested size: 333.0468pt x 431.81659pt.
+ [18
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/updateAccount.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/searchUser.
+tex [19
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/searchUser.png, id=88, 383.4325pt x 441.65pt>
+File: sequenceDiagrams/searchUser.png Graphic file (type png)
+
+<use sequenceDiagrams/searchUser.png>
+Package pdftex.def Info: sequenceDiagrams/searchUser.png used on input line 46.
+
+(pdftex.def)             Requested size: 230.06126pt x 264.99203pt.
+ [20
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/searchUser.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/statInterva
+l.tex [21
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/statsInterval.png, id=95, 519.9425pt x 452.69125pt>
+File: sequenceDiagrams/statsInterval.png Graphic file (type png)
+
+<use sequenceDiagrams/statsInterval.png>
+Package pdftex.def Info: sequenceDiagrams/statsInterval.png used on input line 
+47.
+(pdftex.def)             Requested size: 311.96791pt x 271.61684pt.
+ [22
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/statsInterval.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/statFilter.
+tex [23
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/statsFilter.png, id=103, 558.085pt x 551.05875pt>
+File: sequenceDiagrams/statsFilter.png Graphic file (type png)
+
+<use sequenceDiagrams/statsFilter.png>
+Package pdftex.def Info: sequenceDiagrams/statsFilter.png used on input line 41
+.
+(pdftex.def)             Requested size: 334.85359pt x 330.63779pt.
+ [24
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/statsFilter.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/viewStats.t
+ex [25
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/viewStats.png, id=110, 505.89pt x 387.4475pt>
+File: sequenceDiagrams/viewStats.png Graphic file (type png)
+
+<use sequenceDiagrams/viewStats.png>
+Package pdftex.def Info: sequenceDiagrams/viewStats.png used on input line 39.
+(pdftex.def)             Requested size: 303.53633pt x 232.47029pt.
+ [26
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/viewStats.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/setAutoActi
+vate.tex)
 (C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/geofence.te
-x) [1
+x [27
 
-{C:/Users/pmted_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/setFlag.tex
+[28]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ <sequenceDiagrams/setFlag.png, id=120, 497.86pt x 441.65pt>
+File: sequenceDiagrams/setFlag.png Graphic file (type png)
+
+<use sequenceDiagrams/setFlag.png>
+Package pdftex.def Info: sequenceDiagrams/setFlag.png used on input line 42.
+(pdftex.def)             Requested size: 298.71829pt x 264.99203pt.
+ [29
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/setFlag.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/passwordRec
+overy.tex [30
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/passwordRecovery.png, id=128, 713.66624pt x 692.5875pt>
+File: sequenceDiagrams/passwordRecovery.png Graphic file (type png)
+
+<use sequenceDiagrams/passwordRecovery.png>
+Package pdftex.def Info: sequenceDiagrams/passwordRecovery.png used on input li
+ne 59.
+(pdftex.def)             Requested size: 428.20305pt x 415.5557pt.
+ [31
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/passwordRecovery.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/addAdminRig
+hts.tex [32
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/addAdminRights.png, id=135, 528.97626pt x 607.26875pt>
+File: sequenceDiagrams/addAdminRights.png Graphic file (type png)
+
+<use sequenceDiagrams/addAdminRights.png>
+Package pdftex.def Info: sequenceDiagrams/addAdminRights.png used on input line
+ 54.
+(pdftex.def)             Requested size: 317.3882pt x 364.36406pt.
+ [33
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/addAdminRights.png>])
+(C:\users\pmted_000\Documents\projects\analysisStuff\useCases\cases/revokeAdmin
+Rights.tex
+Overfull \hbox (8.976pt too wide) in paragraph at lines 1--1
+[]\OT1/qbk/b/n/14.4 Revoke Ad-min-is-tra-tor Rights from User 
+ []
+
+
+Overfull \hbox (1.30664pt too wide) in paragraph at lines 38--39
+[]\OT1/qbk/m/n/10 The sys-tem no-ti-fies the (for-mer) ad-min-is-tra-tor that h
+e/she is miss-
+ []
+
+[34
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<sequenceDiagrams/revokeAdminRights.png, id=142, 522.95375pt x 488.82625pt>
+File: sequenceDiagrams/revokeAdminRights.png Graphic file (type png)
+
+<use sequenceDiagrams/revokeAdminRights.png>
+Package pdftex.def Info: sequenceDiagrams/revokeAdminRights.png used on input l
+ine 48.
+(pdftex.def)             Requested size: 313.77466pt x 293.298pt.
+ [35
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/sequenceDiagrams
+/revokeAdminRights.png>])
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(144.54pt, 628.23686pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=628.23686pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=35.27pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=90.3375pt
+* \marginparsep=18.06749pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<useCaseDiagram/diagram.jpg, id=147, 1217.54875pt x 932.48375pt>
+File: useCaseDiagram/diagram.jpg Graphic file (type jpg)
+
+<use useCaseDiagram/diagram.jpg>
+Package pdftex.def Info: useCaseDiagram/diagram.jpg used on input line 59.
+(pdftex.def)             Requested size: 572.248pt x 438.26743pt.
+ [36
+
+
+
+ <C:/users/pmted_000/Documents/projects/analysisStuff/useCases/useCaseDiagram/d
+iagram.jpg>]
 (C:\users\pmted_000\Documents\projects\analysisStuff\useCases\index.aux) ) 
 Here is how much of TeX's memory you used:
- 12512 strings out of 494045
- 251055 string characters out of 3145957
- 289808 words of memory out of 3000000
- 15554 multiletter control sequences out of 15000+200000
- 15950 words of font info for 18 fonts, out of 3000000 for 9000
+ 12713 strings out of 494045
+ 258858 string characters out of 3145957
+ 292808 words of memory out of 3000000
+ 15680 multiletter control sequences out of 15000+200000
+ 25297 words of font info for 21 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 64i,5n,56p,497b,259s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,9n,56p,497b,854s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/U
 sers/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q-rm.enc}<C:
 /Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qbkb.pf
 b><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qb
-kr.pfb>
-Output written on index.pdf (1 page, 56313 bytes).
+kbi.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-g
+yre/qbkr.pfb>
+Output written on index.pdf (38 pages, 3422304 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
