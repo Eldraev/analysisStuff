@@ -1,0 +1,33 @@
+\section{Geofence Use Case}
+
+\begin{cpart}{Description}
+Geofence is the virtual perimeter for a real-world geographic area, according to Wikipedia. In this context, the geofence is the virtual perimeter for when the automatic turn-on feature will be triggered.
+\end{cpart}
+
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+\begin{cpartList}{Preconditions}
+\item The user has activated the geofence function in his or her smartphone.
+\item The smartphone's GPS hardware is activated.
+\item The application is running, either in foreground or background.
+\end{cpartList}
+
+\begin{cpartList}{Basic Flow}
+\item The user closes in to the virtual perimeter.
+\item The smartphone detects the breach of the virtual perimeter.
+\item The smartphone sends a request to the system to turn on the coffee machine.
+\item The system sends a notification to the smartphone that the coffee machine has been turned on.
+\item The smartphone notifies the user that the coffee machine has been turned on.
+\end{cpartList}
+
+\begin{cpartList}{Alternative Flows}
+\begin{innerList}{4}{a}{The system sends a notification that the coffee machine already is on.}
+\item The use case ends without any other action.
+\end{innerList}
+\end{cpartList}
+
+\begin{cpart}{Postconditions}
+The coffee machine is on.
+\end{cpart}

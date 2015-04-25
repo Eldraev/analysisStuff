@@ -1,0 +1,51 @@
+\section{User Login via Smartphone}
+
+\begin{cpart}{Description}
+When the user wishes to login via his or her smartphone. Very similar to the regular User Login use case.
+\end{cpart}
+
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+\begin{cpartList}{Preconditions}
+\item User's smartphone is on.
+\item User's smartphone views the installed apps.
+\end{cpartList}
+
+\begin{cpartList}{Basic Flow}
+\item The user taps on the icon that corresponds to the coffee machine application.
+\item The system presents the user with the login page.
+\item The user taps on the username text field.
+\item The user types in his or her username.
+\item The user taps on the password field.
+\item The user types in his or her password.
+\item The user taps the login button.
+\item The system logs in the user.
+\item The system makes an entry in the log file about the login from the smartphone.
+\item The system presents the user with the default post-login page.
+\end{cpartList}
+
+\begin{cpartList}{Alternate Flows}
+\begin{innerList}{5}{a}{The user taps on the "next field" key on the keyboard.}
+\item The basic flow continues from step 6.
+\end{innerList}
+\begin{innerList}{7}{a}{The user taps the enter key on the keyboard.}
+\item The basic flow continues from step 8.
+\end{innerList}
+\end{cpartList}
+
+\begin{cpartList}{Exception Flows}
+\begin{innerList}{8}{a}{The user has typed in a bad username or password.}
+\item The system notifies the user that he or she is not logged in.
+\end{innerList}
+\begin{innerList}{8}{b}{The maximum number of bad tries has been reached.}
+  \item The system notifies the user that the maximum number of bad tries has been reached.
+  \item The system disables the user's account.
+  \item The use case exits.
+\end{innerList}
+\end{cpartList}
+
+\begin{cpart}{Postcondition}
+User is logged in.
+\end{cpart}

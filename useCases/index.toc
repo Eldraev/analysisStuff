@@ -1,19 +1,1 @@
 \contentsline {section}{\numberline {1}User Login}{1}
-\contentsline {section}{\numberline {2}User Logout}{3}
-\contentsline {section}{\numberline {3}Switching the State of the Coffee Machine}{5}
-\contentsline {section}{\numberline {4}Automatic Activation}{7}
-\contentsline {section}{\numberline {5}Manual Override}{9}
-\contentsline {section}{\numberline {6}Create Account}{11}
-\contentsline {section}{\numberline {7}Delete Account}{13}
-\contentsline {section}{\numberline {8}Deactivate Account}{15}
-\contentsline {section}{\numberline {9}Update Account}{16}
-\contentsline {section}{\numberline {10}Search for User}{18}
-\contentsline {section}{\numberline {11}Change Statistics Viewing Interval}{20}
-\contentsline {section}{\numberline {12}Change Statistics Viewing Filter}{22}
-\contentsline {section}{\numberline {13}View Statistics}{24}
-\contentsline {section}{\numberline {14}Set Automatic Activation Feature}{26}
-\contentsline {section}{\numberline {15}Set Flag}{28}
-\contentsline {section}{\numberline {16}Password Recovery}{30}
-\contentsline {section}{\numberline {17}Add Administrator Rights To User}{32}
-\contentsline {section}{\numberline {18}Revoke Administrator Rights from User}{34}
-\contentsline {section}{\numberline {19}Use Case Diagram}{36}
