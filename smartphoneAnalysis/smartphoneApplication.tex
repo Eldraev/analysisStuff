@@ -1,0 +1,68 @@
+\section{Introduction}
+
+Because of the extra functionalities and the different needs in a smartphone, an analysis focused entirely to this area is required to avoid any basic mistakes and "top of the mind" decisions.
+
+\section{Purpose}
+
+The purpose of this document is therefore to find and elaborate on both what the platforms require and provide to get the application to run in a satisfactory and stable way.
+
+\section{General Requirements}
+
+The main reason why the application is to be developed when we already have a fully functioning as well as responsive web page is not for performance reasons. It is rather because of the GPS functionality provided by both the platforms we intend to support. This functionality allows us to develop a geofence oriented application, where the coffee machine starts when the geofence perimeter is breached.
+
+Because of this, there are multiple aspects to keep in mind while developing the application. The two major ones is the workings of the GPS functionality as well as the battery drainage. If the application overly drains the battery, the customer will dislike the end result and will instead use the responsive website, sacrificing the geofence functionality.
+
+\subsection{Application Functionalities}
+
+The functionalities which the application must provide is no different than the functionalities that the web application provides, other than the fact that the phone application uses the GPS and the geofence functionality. Therefore the phone application must provide the following:
+
+\begin{itemize}
+\item Login and logout
+\item Statistics
+\item Search for, and edit users
+\item Disable users
+\item Turn on/off the coffee machine
+\item Automatic turn on via geofence
+\end{itemize}
+
+\clearpage
+
+\subsection{GPS and Geofence}
+
+The new functionality in the smartphone application is the geofence. To be able to use this, two things are required:
+
+\begin{itemize}
+\item The GPS hardware to be turned on.
+\item Some form of service running in the background with preset conditions when to compare the current location with the geofence perimeter.
+\end{itemize}
+
+Because the company has flexible times in which each employee are present in the office, they will need an equally flexible application to work with. These conditions provided by the service will therefore be per-user customizable to fit everyone's personal need.
+
+\subsubsection{Geofence Beam Frequency}
+
+The biggest concern for the geofence functionality is the frequency of which the application will compare its position to the geofence perimeter. Every single "beam" will by themselves require processing power as well as access to the GPS hardware, which means that there will be battery drainage.
+
+To prevent an over drainage of the battery, we will need a solid system for how the beam frequency will work. There are two ways to do this:
+
+\begin{itemize}
+\item The beam frequency have a set interval, never-changing regardless of the distance to the perimeter.
+\item The beam increases the frequency the closer to the perimeter the phone gets. How this works is that the phone will use the distance to the perimeter in an equation to get the current frequency. The closer to the perimeter, the lower the number, the higher the frequency.
+\end{itemize}
+
+There are pros and cons with both of these ways. If the office is close to other buildings that the employees often visit, right outside of the perimeter, then the frequency will be unnaturally high too often to motivate the following battery drainage.
+
+On the other hand, if the office is located in an otherwise scarcely visited area, then the beam frequency will be low most of the time, which in turn means that the battery drainage will be minimal. If this is combined with customizable values, then the application will be as optimized as can be.
+
+My advise for this is to implement both of these options, letting each user decide for themselves which functionality to use. Though, because time is an important factor when there is not that much of it left, the priority needs to lie in the first option - to have a static interval, never-changing regardless of the distance. If this is combined with a time span when the frequency should be higher than otherwise, then this will result in a satisfactory application for the customer.
+
+\subsubsection{Geofence Settings}
+
+In the phone application, these settings must exist:
+
+\begin{itemize}
+\item A well placed, highly visible switch that will switch off or on all functionalities of the application.
+\item A switch to change from relative to static intervals.
+\item A time span between two nodes where the application will check the phone's current position against the perimeter more frequently than otherwise.
+\item An integer, either relative in a frequency equation, or static to correspond to the actual frequency, for which the application will check the position against the perimeter during the time span above.
+\item An integer, either relative in a frequency equation, or static to correspond to the actual frequency, for which the application will check the position against the perimeter outside of said time span.
+\end{itemize}

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Purpose}{1}
+\contentsline {section}{\numberline {3}General Requirements}{1}
+\contentsline {subsection}{\numberline {3.1}Application Functionalities}{1}
+\contentsline {subsection}{\numberline {3.2}GPS and Geofence}{2}
+\contentsline {subsubsection}{\numberline {3.2.1}Geofence Beam Frequency}{2}
+\contentsline {subsubsection}{\numberline {3.2.2}Geofence Settings}{3}
