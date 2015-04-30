@@ -1,0 +1,58 @@
+\section{Geofence Settings: Enable/Disable}
+
+% --Description--
+%
+\begin{cpart}{Description}
+Because the geofence functionality will drain the battery quite a lot, it is important to let the user have the ability to disable and enable all of the functionalities whenever he or she wants.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpartList}{Preconditions}
+\item The smartphone application is in the foreground.
+\item The user is logged in to his or her account.
+\item The geofence functionality is \textbf{enabled}.
+\end{cpartList}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The user taps on the settings icon.
+  \item The smartphone presents the user with the settings view.
+  \item The user taps on the enable/disable switch, disabling the functionality.
+  \item The smartphone application saves the setting.
+  \item The smartphone disables the geofence functionality.
+\end{cpartList}
+
+% --Alternate Flows--
+%
+\begin{cpartList}{Alternate Flows}
+  \begin{innerList}{5}{a}{The geofence functionality is already disabled.}
+    \item The smartphone enables the geofence functionality.
+  \end{innerList}
+  \begin{innerList}{5}{b}{The geofence functionality is already disabled, and the GPS hardware is off.}
+    \item The smartphone notifies the user that the GPS hardware, required for the geofence functionality to work, is disabled.
+    \item The smartphone asks the user if he or she wants to enable the GPS hardware.
+    \item The user agrees.
+    \item The smartphone enables the GPS hardware.
+    \item The smartphone enables the geofence functionality.
+    \begin{innerList}{3}{a}{The user declines.}
+      \item The use case is terminated.
+    \end{innerList}
+  \end{innerList}
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+All the geofence related functionality is disabled.
+\end{cpart}
+
+\clearpage

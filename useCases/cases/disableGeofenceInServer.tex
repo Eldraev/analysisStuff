@@ -1,0 +1,56 @@
+\section{Geofence Settings: Disable On Server}
+
+% --Description--
+%
+\begin{cpart}{Description}
+The server should be able to ignore automatic geofence state-switch requests from smartphones.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+Administrator
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpartList}{Preconditions}
+\item The server is up.
+\item The geofence functionality is enabled in the server.
+\item The administrator is logged in and is in the view where the geofence switch is located.
+\end{cpartList}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The administrator clicks on the enable/disable switch to disable the functionality.
+  \item The system disables the geofence functionality.
+  \item The system notifies the administrator that geofence functionality is disabled.
+\end{cpartList}
+
+% --Alternate Flows--
+%
+\begin{cpartList}{Alternate Flows}
+  \begin{innerList}{1}{a}{The functionality is already disabled.}
+    \item The system enables the geofence functionality.
+    \item The system notifies the user that the geofence functionality is enabled.
+  \end{innerList}
+\end{cpartList}
+
+% --Exception Flows--
+%
+\begin{cpartList}{Exception Flows}
+  \begin{innerList}{1}{a}{The administrator has lost its elevated rights.}
+    \item The system notifies the former administrator about the missing rights.
+    \item The system notifies the user that the state-switch failed.
+  \end{innerList}
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+The geofence functionality is disabled in the server.
+\end{cpart}
+
+\clearpage

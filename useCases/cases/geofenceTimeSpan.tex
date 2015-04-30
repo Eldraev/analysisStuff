@@ -1,0 +1,50 @@
+\section{Geofence Settings: Edit High-Frequency Time Span}
+
+% --Description--
+%
+\begin{cpart}{Description}
+Decide which time of the day when the smartphone should check for a perimeter breach more often than otherwise, which obviously is around the time when the user usually clocks in to the office.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpartList}{Preconditions}
+\item The smartphone application is in the foreground.
+\item The user is logged in to the application.
+\end{cpartList}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The user taps on the settings icon.
+  \item The smartphone presents the user with the settings view.
+  \item The user locates the slider corresponding the hours of the day, with two arrows corresponding the span.
+  \item The user slides the arrows to get the preferred time span.
+  \item The smartphone saves the setting.
+\end{cpartList}
+
+% --Exception Flows--
+%
+\begin{cpartList}{Exception Flows}
+  \begin{innerList}{4}{a}{The user slides the left arrow to the right of the right arrow.}
+    \item The smartphone stops the left arrow from sliding over the right arrow, resulting in a time span of 0 minutes.
+  \end{innerList}
+  \begin{innerList}{4}{b}{The user slides the right arrow to the left of the left arrow.}
+    \item The smartphone stops the right arrow from sliding over the left arrow, resulting in a time span of 0 minutes.
+  \end{innerList}
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+The user's preferred time span for the higher frequency is set and saved in the smartphone.
+\end{cpart}
+
+\clearpage

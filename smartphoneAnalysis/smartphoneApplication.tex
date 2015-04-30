@@ -66,3 +66,5 @@ In the phone application, these settings must exist:
 \item An integer, either relative in a frequency equation, or static to correspond to the actual frequency, for which the application will check the position against the perimeter during the time span above.
 \item An integer, either relative in a frequency equation, or static to correspond to the actual frequency, for which the application will check the position against the perimeter outside of said time span.
 \end{itemize}
+
+Beyond the smartphone settings, it should be possible to disable the functionality to turn on and off the coffee machine via geofence. This means that the geofence state-switch notification from the smartphone to the Raspberry Pi needs to be distinguishable in such a way that the server is able to ignore the incoming signal if the functionality is off.

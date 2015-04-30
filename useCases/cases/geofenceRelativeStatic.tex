@@ -1,0 +1,43 @@
+\section{Geofence Settings: Relative/Static Frequency Switch}
+
+% --Description--
+%
+\begin{cpart}{Description}
+There will be a functionality in the smartphone application where the frequency of which the smartphone will compare its position with the geofence perimeter in either a static frequency or a relative frequency.
+
+The static frequency is when the "beams" are constant with a set time between each "beam", regardless of the distance to the perimeter. If the user often is close to the perimeter without breaching it, then this option will probably drain the battery the least.
+
+The relative frequency is when the "beams" are more frequent the closer to the perimeter the smartphone gets. This way is more "real-time-oriented" than the static frequency and may put less stress on the battery if the user is far away from the office most of the time. If the user on the other hand is close to the perimeter most of the time, the battery drainage will go through the roof.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpartList}{Preconditions}
+\item The smartphone application is in the foreground.
+\item The user is logged in to the application.
+\end{cpartList}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The user taps on the settings icon.
+  \item The application presents the settings view.
+  \item The user taps the relative/static switch.
+  \item The smartphone saves the setting.
+  \item The smartphone sets the new conditions in the application.
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+If the setting was set to relative it is now set to static, and vice versa.
+\end{cpart}
+
+\clearpage

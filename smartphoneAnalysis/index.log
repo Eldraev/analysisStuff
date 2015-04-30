@@ -1,20 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.25)  27 APR 2015 21:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.15)  29 APR 2015 18:05
 entering extended mode
 **index.tex
-
-(C:\users\pmted_000\documents\projects\analysisStuff\smartphoneAnalysis\index.t
-ex
+(D:\Documents\projects\analysisStuff\smartphoneAnalysis\index.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -336,8 +334,7 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(C:\users\pmted_000\documents\projects\analysisStuff\smartphoneAnalysis\front/f
-ront.tex
+(D:\Documents\projects\analysisStuff\smartphoneAnalysis\front/front.tex
 (C:\Users\pmted_000\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos.sty
 Package: textpos 2014/01/03 v1.7j
 
@@ -356,13 +353,13 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 sty
 Package: background 2014/03/04 v2.1 background material
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
 \XKV@depth=\count91
-File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (C:\Users\pmted_000\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz
 .sty
@@ -693,8 +690,7 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@partial=\box38
 \AP@footins=\box39
 )))
-(C:\users\pmted_000\documents\projects\analysisStuff\smartphoneAnalysis\index.a
-ux)
+(D:\Documents\projects\analysisStuff\smartphoneAnalysis\index.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
@@ -832,13 +828,12 @@ Package pdftex.def Info: front/bg.png used on input line 18.
  [1
 
 
-{C:/Users/pmted_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/user
-s/pmted_000/documents/projects/analysisStuff/smartphoneAnalysis/front/bg.png (P
-NG copy)> <C:/users/pmted_000/documents/projects/analysisStuff/smartphoneAnalys
-is/front/coffee2.png> <C:/users/pmted_000/documents/projects/analysisStuff/smar
-tphoneAnalysis/front/isep2.png>]
-(C:\users\pmted_000\documents\projects\analysisStuff\smartphoneAnalysis\smartph
-oneApplication.tex
+{C:/Users/pmted_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Docu
+ments/projects/analysisStuff/smartphoneAnalysis/front/bg.png (PNG copy)> <D:/Do
+cuments/projects/analysisStuff/smartphoneAnalysis/front/coffee2.png> <D:/Docume
+nts/projects/analysisStuff/smartphoneAnalysis/front/isep2.png>]
+(D:\Documents\projects\analysisStuff\smartphoneAnalysis\smartphoneApplication.t
+ex
 LaTeX Font Info:    Try loading font information for OMS+qbk on input line 20.
 LaTeX Font Info:    No file OMSqbk.fd. on input line 20.
 
@@ -852,28 +847,26 @@ LaTeX Font Warning: Font shape `OMS/qbk/m/n' undefined
 
 ] [2
 
-]) [3]
-(C:\users\pmted_000\documents\projects\analysisStuff\smartphoneAnalysis\index.a
-ux)
+]) [3] (D:\Documents\projects\analysisStuff\smartphoneAnalysis\index.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12301 strings out of 494045
- 247648 string characters out of 3145957
- 281348 words of memory out of 3000000
- 15336 multiletter control sequences out of 15000+200000
+ 12302 strings out of 493921
+ 247471 string characters out of 3144864
+ 281520 words of memory out of 3000000
+ 15338 multiletter control sequences out of 15000+200000
  31157 words of font info for 31 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 64i,9n,56p,533b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 841 hyphenation exceptions out of 8191
+ 64i,9n,56p,533b,863s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q-rm.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qb
 kb.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gy
 re/qbkbi.pfb><C:/Users/pmted_000/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
 tex-gyre/qbkr.pfb>
-Output written on index.pdf (4 pages, 2854755 bytes).
+Output written on index.pdf (4 pages, 2855253 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

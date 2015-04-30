@@ -1,0 +1,53 @@
+\section{Geofence Settings: High Frequency}
+
+% --Description--
+%
+\begin{cpart}{Description}
+Different users have diffferent concerns about battery drainage. Therefore the users should be able to set how often the application will compare its current position with the geofence perimeter depending on their needs.
+\end{cpart}
+
+
+% --Actors--
+%
+\begin{cpart}{Actors}
+User
+\end{cpart}
+
+% --Preconditions--
+%
+\begin{cpartList}{Preconditions}
+\item The smartphone application is in the foreground.
+\item The user is logged into the application.
+\end{cpartList}
+
+% --Basic Flow--
+%
+\begin{cpartList}{Basic Flow}
+  \item The user taps on the settings icon.
+  \item The smartphone presents the user with the settings view.
+  \item The user changes the frequency of the "beams" outside of the time span.
+  \item The smartphone saves the frequency.
+\end{cpartList}
+
+% --Exception Flows--
+%
+\begin{cpartList}{Exception Flows}
+  \begin{innerList}{3}{a}{The user changes the frequency to a number higher than the application allows.}
+    \item The application notifies the user that the set frequency is above the limit.
+    \item The application sets the frequency to the maximum number allowed.
+    \item The application saves the frequency.
+  \end{innerList}
+  \begin{innerList}{3}{b}{The user changes the frequency to a negative number.}
+    \item The application notifies the user that the frequency cannot be negative.
+    \item The application sets the frequency to 0.
+    \item The application saves the frequency.
+  \end{innerList}
+\end{cpartList}
+
+% --Postconditions--
+%
+\begin{cpart}{Postconditions}
+The user's desired frequency is set and saved in the smartphone.
+\end{cpart}
+
+\clearpage
