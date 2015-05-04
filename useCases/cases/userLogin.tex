@@ -16,6 +16,7 @@ The application is started
   \item The user types in the username and password.
   \item The system logs in the user.
   \item The system writes a log entry for the activity of the user with the current time and date.
+  \item The system checks if a cookie exists for the user.
   \item The system asks if the user wants to store a cookie.
   \item The user accepts and a cookie is stored for further usage.
 \end{cpartList}
@@ -25,21 +26,25 @@ The application is started
     \item The system checks that the cookie is still valid.
     \item The system logs in the user automatically.
   \end{innerList}
-  \begin{innerList}{3}{a}{The user declined the storage of a cookie.}
+  \begin{innerList}{5}{a}{The user declined the storage of a cookie.}
     \item The system does not store a cookie for further usage.
   \end{innerList}
 \end{cpartList}
 
 \begin{cpartList}{Exception Flows}
-  \begin{innerList}{2}{a}{The entered password is incorrect.}
+  \begin{innerList}{2}{a}{The entered username does not exist.}
     \item The system shows an error message.
-    \item The user returns to 1.
+    \item The use case is terminated.
   \end{innerList}
-  \begin{innerList}{2}{b}{The maximum number of wrong password entries has been reached.}
+  \begin{innerList}{2}{b}{The entered password is incorrect.}
     \item The system shows an error message.
-    \item The use case exits.
+    \item The use case is terminated.
   \end{innerList}
-  \begin{innerList}{3}{a}{The cookie is invalid or expired.}
+  \begin{innerList}{2}{c}{The maximum number of wrong password entries has been reached.}
+    \item The system shows an error message.
+    \item The use case is terminated.
+  \end{innerList}
+  \begin{innerList}{4}{a}{The cookie is invalid or expired.}
     \item The system notifies the user that the cookie is invalid.
     \item The user is sent to the login page and needs to enter the username and password to continue.
   \end{innerList}

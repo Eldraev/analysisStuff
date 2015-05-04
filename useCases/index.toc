@@ -1,22 +1,27 @@
 \contentsline {section}{\numberline {1}User Login}{1}
-\contentsline {section}{\numberline {2}User Login via Smartphone}{3}
-\contentsline {section}{\numberline {3}User Logout}{4}
-\contentsline {section}{\numberline {4}User Logout via Smartphone}{6}
-\contentsline {section}{\numberline {5}Switching the State of the Coffee Machine}{6}
-\contentsline {section}{\numberline {6}Automatic Activation}{8}
-\contentsline {section}{\numberline {7}Manual Override}{10}
-\contentsline {section}{\numberline {8}Create Account}{12}
-\contentsline {section}{\numberline {9}Delete Account}{14}
-\contentsline {section}{\numberline {10}Deactivate Account}{16}
-\contentsline {section}{\numberline {11}Update Account}{17}
-\contentsline {section}{\numberline {12}Search for User}{19}
-\contentsline {section}{\numberline {13}Change Statistics Viewing Interval}{21}
-\contentsline {section}{\numberline {14}Change Statistics Viewing Filter}{23}
-\contentsline {section}{\numberline {15}View Statistics}{25}
-\contentsline {section}{\numberline {16}Set Automatic Activation Feature}{27}
-\contentsline {section}{\numberline {17}Geofence Use Case}{27}
-\contentsline {section}{\numberline {18}Set Flag}{28}
-\contentsline {section}{\numberline {19}Password Recovery}{30}
-\contentsline {section}{\numberline {20}Add Administrator Rights To User}{32}
-\contentsline {section}{\numberline {21}Revoke Administrator Rights from User}{34}
-\contentsline {section}{\numberline {22}Use Case Diagram}{36}
+\contentsline {section}{\numberline {2}User Login via Smartphone}{4}
+\contentsline {section}{\numberline {3}User Logout}{5}
+\contentsline {section}{\numberline {4}User Logout via Smartphone}{7}
+\contentsline {section}{\numberline {5}Switching the State of the Coffee Machine}{8}
+\contentsline {section}{\numberline {6}Manual Override}{10}
+\contentsline {section}{\numberline {7}Create Account}{12}
+\contentsline {section}{\numberline {8}Delete Account}{15}
+\contentsline {section}{\numberline {9}Deactivate Account}{17}
+\contentsline {section}{\numberline {10}Update Account}{18}
+\contentsline {section}{\numberline {11}Search for User}{20}
+\contentsline {section}{\numberline {12}Change Statistics Viewing Interval}{22}
+\contentsline {section}{\numberline {13}Change Statistics Viewing Filter}{24}
+\contentsline {section}{\numberline {14}View Statistics}{26}
+\contentsline {section}{\numberline {15}Set Automatic Activation Feature}{28}
+\contentsline {section}{\numberline {16}Set Flag}{29}
+\contentsline {section}{\numberline {17}Password Recovery}{31}
+\contentsline {section}{\numberline {18}Add Administrator Rights To User}{33}
+\contentsline {section}{\numberline {19}Revoke Administrator Rights from User}{35}
+\contentsline {section}{\numberline {20}Geofence: Perimeter Breach}{37}
+\contentsline {section}{\numberline {21}Geofence Settings: Enable/Disable}{38}
+\contentsline {section}{\numberline {22}Geofence Settings: Edit High-Frequency Time Span}{39}
+\contentsline {section}{\numberline {23}Geofence Settings: High Frequency}{40}
+\contentsline {section}{\numberline {24}Geofence Settings: High Frequency}{41}
+\contentsline {section}{\numberline {25}Geofence Settings: Relative/Static Frequency Switch}{42}
+\contentsline {section}{\numberline {26}Geofence Settings: Disable On Server}{43}
+\contentsline {section}{\numberline {27}Use Case Diagram}{44}
