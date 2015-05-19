@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Cygwin) (preloaded format=pdflatex 2015.5.2)  4 MAY 2015 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.3.28)  18 MAY 2015 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **index.tex
 (./index.tex
-LaTeX2e <2014/05/01>
+LaTeX2e <2011/06/27>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texmf-dist/tex/latex/base/article.cls
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size10.clo
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,19 +23,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texmf-dist/tex/latex/base/utf8.def
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -185,7 +185,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -216,7 +216,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -240,112 +240,435 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/tex-gyre/tgbonum.sty
+Package: tgbonum 2009/09/27 v1.2 TeX Gyre Bonum as default roman family
 
-! LaTeX Error: File `tgbonum.sty' not found.
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
 \Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks17
 )
-(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
-) (./front/front.tex
+)
+(./front/front.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2014/01/03 v1.7j
 
-! LaTeX Error: File `textpos.sty' not found.
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+\TP@textbox=\box26
+\TPHorizModule=\dimen105
+\TPVertModule=\dimen106
+\TP@margin=\dimen107
+\TP@absmargin=\dimen108
+Grid set 16 x 16 = 38.39343pt x 49.68562pt
+\TPboxrulesize=\dimen109
+\TP@tbargs=\toks18
+\TP@prevdepth=\dimen110
+) (d:/Programs/texlive/2013/texmf-dist/tex/latex/background/background.sty
+Package: background 2014/03/04 v2.1 background material
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-Enter file name: 
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+\XKV@depth=\count88
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.t
+ex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen111
+\pgfutil@tempdimb=\dimen112
 
-! LaTeX Error: File `background.sty' not found.
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-l
+ists.tex))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.de
+f
+\pgfutil@abb=\box27
+ (d:/Programs/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+ (d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.te
+x
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
-Enter file name: 
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.
+code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen113
+\pgf@y=\dimen114
+\pgf@xa=\dimen115
+\pgf@ya=\dimen116
+\pgf@xb=\dimen117
+\pgf@yb=\dimen118
+\pgf@xc=\dimen119
+\pgf@yc=\dimen120
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count89
+\c@pgf@countb=\count90
+\c@pgf@countc=\count91
+\c@pgf@countd=\count92
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
 
-! LaTeX Error: Unknown option `pages=some' for package `background'.
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               [utf8]{inputenc}
-? 
-) (./useCasePackage.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.
+def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-! LaTeX Error: File `enumitem.sty' not found.
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-
+pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath
+.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count93
+\pgfsyssoftpath@bigbuffer@items=\count94
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol
+.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (d:/Programs/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.te
+x
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+ (d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 
-Enter file name: 
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.te
+x
+\pgfmath@dimen=\dimen121
+\pgfmath@count=\count95
+\pgfmath@box=\box28
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code
+.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basi
+c.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trig
+onometric.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rand
+om.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comp
+arison.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base
+.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.roun
+d.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc
+.code.tex)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.inte
+gerarithmetics.code.tex)))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count96
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.c
+ode.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen122
+\pgf@picmaxx=\dimen123
+\pgf@picminy=\dimen124
+\pgf@picmaxy=\dimen125
+\pgf@pathminx=\dimen126
+\pgf@pathmaxx=\dimen127
+\pgf@pathminy=\dimen128
+\pgf@pathmaxy=\dimen129
+\pgf@xx=\dimen130
+\pgf@xy=\dimen131
+\pgf@yx=\dimen132
+\pgf@yy=\dimen133
+\pgf@zx=\dimen134
+\pgf@zy=\dimen135
+LaTeX Font Info:    Try loading font information for OT1+qbk on input line 926.
+
+ (d:/Programs/texlive/2013/texmf-dist/tex/latex/tex-gyre/ot1qbk.fd
+File: ot1qbk.fd 2009/09/25 v1.2 font definition file for OT1/qbk
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathcons
+truct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen136
+\pgf@path@lasty=\dimen137
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusag
+e.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen138
+\pgf@shorten@start@additional=\dimen139
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.c
+ode.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count97
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphics
+tate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen140
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransfor
+mations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen141
+\pgf@pt@y=\dimen142
+\pgf@pt@temp=\dimen143
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.co
+de.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.
+code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproc
+essing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.c
+ode.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen144
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.co
+de.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen145
+\pgf@sys@shading@range@num=\count98
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.co
+de.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal
+.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box32
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.c
+ode.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspar
+ency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns
+.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.co
+de.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box33
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code
+.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versio
+n-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen146
+\pgf@nodesepend=\dimen147
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versio
+n-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+)) (d:/Programs/texlive/2013/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen148
+\pgffor@skip=\dimen149
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.co
+de.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotha
+ndlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count99
+\pgfplotmarksize=\dimen150
+)
+\tikz@lastx=\dimen151
+\tikz@lasty=\dimen152
+\tikz@lastxsaved=\dimen153
+\tikz@lastysaved=\dimen154
+\tikzleveldistance=\dimen155
+\tikzsiblingdistance=\dimen156
+\tikz@figbox=\box34
+\tikz@figbox@bg=\box35
+\tikz@tempbox=\box36
+\tikz@tempbox@bg=\box37
+\tikztreelevel=\count100
+\tikznumberofchildren=\count101
+\tikznumberofcurrentchild=\count102
+\tikz@fig@count=\count103
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.co
+de.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count104
+\pgfmatrixcurrentcolumn=\count105
+\pgf@matrix@numberofcolumns=\count106
+)
+\tikz@expandcount=\count107
+
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks33
+\AP@partial=\box38
+\AP@footins=\box39
+)))
+(./useCasePackage.tex
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen157
+\enit@toks=\toks34
+\enit@inbox=\box40
+\enitdp@description=\count108
+)
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen105
-\Gm@wd@mp=\dimen106
-\Gm@odd@mp=\dimen107
-\Gm@even@mp=\dimen108
-\Gm@layoutwidth=\dimen109
-\Gm@layoutheight=\dimen110
-\Gm@layouthoffset=\dimen111
-\Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks18
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks35
 ))
-No file index.aux.
+(./index.aux)
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -360,63 +683,47 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks20
-) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+(d:/Programs/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen166
+\scratchbox=\box41
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen167
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks37
+) (d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(d:/Programs/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(d:/Programs/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -451,40 +758,6 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Undefined control sequence.
-\front #1#2#3#4-> \backgroundsetup 
-                                   { scale=1, color=white, opacity=0.9, angl...
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-<front/bg.png, id=1, 2489.3pt x 3521.155pt>
-File: front/bg.png Graphic file (type png)
- <use front/bg.png>
-Package pdftex.def Info: front/bg.png used on input line 20.
-(pdftex.def)             Requested size: 597.4822pt x 845.04076pt.
-
-Overfull \hbox (491.72537pt too wide) in paragraph at lines 20--20
-[]\OT1/cmr/m/n/10 scale=1, color=white, opac-ity=0.9, an-gle=0, contents=[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (180.6689pt too high) has occurred while \output is active []
-
-
-[2 <./front/bg.png (PNG copy)>] [3]
-! Undefined control sequence.
-\front ...ty} \par \begin {titlepage} \BgThispage 
-                                                  \newgeometry {left=0mm,rig...
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -517,126 +790,50 @@ l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-! LaTeX Error: Environment textblock undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
 
-! LaTeX Error: \begin{titlepage} on input line 20 ended by \end{textblock}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-
-Overfull \hbox (53.37704pt too wide) in paragraph at lines 20--20
-[]\OT1/cmr/m/n/10 10(0.6,4.85) []
+Overfull \hbox (30.04863pt too wide) in paragraph at lines 20--20
+[][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-
- []
-
-
-! LaTeX Error: Environment textblock undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-<front/coffee2.png, id=14, 1679.27374pt x 1679.27374pt>
+<front/coffee2.png, id=4, 1679.27374pt x 1679.27374pt>
 File: front/coffee2.png Graphic file (type png)
-
-<use front/coffee2.png>
+ <use front/coffee2.png>
 Package pdftex.def Info: front/coffee2.png used on input line 20.
 (pdftex.def)             Requested size: 119.48294pt x 119.50157pt.
 
-
-! LaTeX Error: \begin{titlepage} on input line 20 ended by \end{textblock}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-
-! LaTeX Error: Environment textblock undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-
-! LaTeX Error: \begin{titlepage} on input line 20 ended by \end{textblock}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-
-Overfull \hbox (43.74684pt too wide) in paragraph at lines 20--20
-[]\OT1/cmr/m/n/10 4(8.8,8.4) []
+Overfull \hbox (141.80438pt too wide) in paragraph at lines 20--20
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-
+Overfull \hbox (30.0234pt too wide) in paragraph at lines 20--20
+[][] 
  []
 
-
-! LaTeX Error: Environment textblock undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-<front/isep2.png, id=16, 1495.5875pt x 399.4925pt>
+<front/isep2.png, id=6, 1495.5875pt x 399.4925pt>
 File: front/isep2.png Graphic file (type png)
  <use front/isep2.png>
 Package pdftex.def Info: front/isep2.png used on input line 20.
 (pdftex.def)             Requested size: 343.97789pt x 91.88133pt.
 
+Overfull \hbox (350.9416pt too wide) in paragraph at lines 20--20
+[][] 
+ []
 
-! LaTeX Error: \begin{titlepage} on input line 20 ended by \end{textblock}.
+<front/bg.png, id=7, 2489.3pt x 3521.155pt>
+File: front/bg.png Graphic file (type png)
+ <use front/bg.png>
+Package pdftex.def Info: front/bg.png used on input line 20.
+(pdftex.def)             Requested size: 597.4822pt x 845.04076pt.
+ [1
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
-                                                  {}
-? 
-[1
 
- <./front/coffee2.png> <./front/isep2.png>]
+{d:/Programs/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fron
+t/bg.png (PNG copy)> <./front/coffee2.png> <./front/isep2.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -669,134 +866,19 @@ l.20 ...e Cases}{Ted Sundström}{Florian Sciedt}{}
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ (./index.toc)
+\tf@toc=\write4
+\openout4 = `index.toc'.
 
-No file index.toc.
-\tf@toc=\write3
-\openout3 = `index.toc'.
+ [1
 
-[1
-
-
-
-] (./cases/userLogin.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.25 ...}{The user already has a cookie in store.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.26     \item T
-                he system checks that the cookie is still valid.
-? 
-
-Overfull \hbox (1.21565pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/10 The sys-tem checks that the cookie
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.27     \item T
-                he system logs in the user automatically.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.29 ...he user declined the storage of a cookie.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30     \item T
-                he system does not store a cookie for further usage.
-? 
-
-Overfull \hbox (3.52122pt too wide) in paragraph at lines 30--31
-[]\OT1/cmr/m/n/10 The sys-tem does not store a cookie
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 ...}{a}{The entered username does not exist.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he system shows an error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he use case is terminated.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39 ...{2}{b}{The entered password is incorrect.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40     \item T
-                he system shows an error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41     \item T
-                he use case is terminated.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43 ... wrong password entries has been reached.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he system shows an error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he use case is terminated.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.47 ...}{4}{a}{The cookie is invalid or expired.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.48     \item T
-                he system notifies the user that the cookie is invalid.
-? 
-[1
 
 
 ]
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.49     \item T
-                he user is sent to the login page and needs to enter the use...
+(./cases/userLogin.tex [1
 
-? 
-[2]
+
+] [2]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -829,7 +911,8 @@ l.49     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/userLogin.png, id=35, 568.1225pt x 1031.855pt>
+
+<sequenceDiagrams/userLogin.png, id=27, 568.1225pt x 1031.855pt>
 File: sequenceDiagrams/userLogin.png Graphic file (type png)
 
 <use sequenceDiagrams/userLogin.png>
@@ -838,106 +921,10 @@ Package pdftex.def Info: sequenceDiagrams/userLogin.png used on input line 57.
  [3
 
  <./sequenceDiagrams/userLogin.png>])
-(./cases/loginMobile.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.30 ... on the "next field" key on the keyboard.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.31 \item T
-            he basic flow continues from step 6.
-? 
-
-Overfull \hbox (2.35454pt too wide) in paragraph at lines 31--32
-[]\OT1/cmr/m/n/10 The ba-sic flow con-tin-ues from step
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.33 ... user taps the enter key on the keyboard.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34 \item T
-            he basic flow continues from step 8.
-? 
-
-Overfull \hbox (2.35454pt too wide) in paragraph at lines 34--35
-[]\OT1/cmr/m/n/10 The ba-sic flow con-tin-ues from step
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39 ... has typed in a bad username or password.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40 \item T
-            he system notifies the user that he or she is not logged in.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42 ...mum number of bad tries has been reached.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43   \item T
-              he system notifies the user that the maximum number of bad tri...
-
-? 
-
-Overfull \hbox (0.60463pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/n/10 the max-i-mum num-ber of bad tries
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44   \item T
-              he system disables the user's account.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45   \item T
-              he use case exits.
-? 
-) (./cases/userLogout.tex [4
+(./cases/loginMobile.tex) (./cases/userLogout.tex [4
 
 
-]
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.23 ...ready been logged out in a different tab.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.24     \item T
-                he system notifies the user.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.25     \item T
-                he system sends the user to the log in page.
-? 
-[5]
+] [5]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -970,7 +957,8 @@ l.25     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/userLogout.png, id=45, 453.695pt x 414.54875pt>
+
+<sequenceDiagrams/userLogout.png, id=38, 453.695pt x 414.54875pt>
 File: sequenceDiagrams/userLogout.png Graphic file (type png)
 
 <use sequenceDiagrams/userLogout.png>
@@ -983,7 +971,12 @@ Package pdftex.def Info: sequenceDiagrams/userLogout.png used on input line 33.
 (./cases/logoutMobile.tex [7
 
 
-]) (./cases/switchState.tex [8
+]) (./cases/switchState.tex
+Overfull \hbox (17.24158pt too wide) in paragraph at lines 1--1
+[]\OT1/qbk/b/n/14.4 Switching the State of the Cof-fee Ma-chine 
+ []
+
+[8
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1018,8 +1011,7 @@ Package pdftex.def Info: sequenceDiagrams/userLogout.png used on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-<sequenceDiagrams/switchState.png, id=56, 426.59375pt x 375.4025pt>
+ <sequenceDiagrams/switchState.png, id=48, 426.59375pt x 375.4025pt>
 File: sequenceDiagrams/switchState.png Graphic file (type png)
 
 <use sequenceDiagrams/switchState.png>
@@ -1065,7 +1057,7 @@ Package pdftex.def Info: sequenceDiagrams/switchState.png used on input line 26
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<sequenceDiagrams/manualOverride.png, id=63, 342.27875pt x 321.2pt>
+<sequenceDiagrams/manualOverride.png, id=55, 342.27875pt x 321.2pt>
 File: sequenceDiagrams/manualOverride.png Graphic file (type png)
 
 <use sequenceDiagrams/manualOverride.png>
@@ -1074,59 +1066,10 @@ Package pdftex.def Info: sequenceDiagrams/manualOverride.png used on input line
 (pdftex.def)             Requested size: 205.36882pt x 192.72148pt.
  [11
 
- <./sequenceDiagrams/manualOverride.png>]) (./cases/createAccount.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43 ...ser name or email address already exists.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he administrator asks the user for different user information.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.46     \item T
-                he administrator returns to step 3.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.49 ...information do not comply with the rules.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.50     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.51     \item T
-                he administrator asks the user for different user information.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.52     \item T
-                he administrator returns to step 3.
-? 
-[12
+ <./sequenceDiagrams/manualOverride.png>]) (./cases/createAccount.tex [12
 
 
-] [13]
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1160,7 +1103,7 @@ l.52     \item T
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<sequenceDiagrams/createAccount.png, id=73, 763.85374pt x 515.9275pt>
+<sequenceDiagrams/createAccount.png, id=63, 763.85374pt x 515.9275pt>
 File: sequenceDiagrams/createAccount.png Graphic file (type png)
 
 <use sequenceDiagrams/createAccount.png>
@@ -1172,47 +1115,10 @@ Overfull \hbox (5.34789pt too wide) in paragraph at lines 62--62
  [] 
  []
 
-[14
+[13
 
  <./sequenceDiagrams/createAccount.png>]) (./cases/deleteAccount.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37 ...he entered user information can be found.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42 ...ministrator tries to delete him-/herself.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he system notifies the administrator that an administrator c...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he administrator is routed back to the administrator page.
-? 
-[15
+[14
 
 
 ]
@@ -1248,112 +1154,19 @@ l.44     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/deleteAccount.png, id=81, 482.80376pt x 648.4225pt>
+ <sequenceDiagrams/deleteAccount.png, id=70, 482.80376pt x 648.4225pt>
 File: sequenceDiagrams/deleteAccount.png Graphic file (type png)
 
 <use sequenceDiagrams/deleteAccount.png>
 Package pdftex.def Info: sequenceDiagrams/deleteAccount.png used on input line 
 54.
 (pdftex.def)             Requested size: 289.6845pt x 389.0565pt.
- [16
+ [15
 
- <./sequenceDiagrams/deleteAccount.png>]) (./cases/deactivateAcc.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37   \begin{innerList}{4}{a}{Alternate flow.}
-                                               
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42   \begin{innerList}{4}{b}{Alternate flow.}
-                                               
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he system notifies the administrator that an administrator c...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he administrator is routed back to the administrator page.
-? 
-[17
+ <./sequenceDiagrams/deleteAccount.png>]) (./cases/deactivateAcc.tex [16
 
 
-]) (./cases/updateAccount.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38 ...he entered user information can be found.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43 ...ser name or email address already exists.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.48 ...information do not comply with the rules.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.49     \item T
-                he system notifies the administrator.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.50     \item T
-                he use case is exited.
-? 
-[18
+]) (./cases/updateAccount.tex [17
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1388,35 +1201,17 @@ l.50     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/updateAccount.png, id=91, 555.07375pt x 719.68875pt>
+
+<sequenceDiagrams/updateAccount.png, id=81, 555.07375pt x 719.68875pt>
 File: sequenceDiagrams/updateAccount.png Graphic file (type png)
 
 <use sequenceDiagrams/updateAccount.png>
 Package pdftex.def Info: sequenceDiagrams/updateAccount.png used on input line 
 60.
 (pdftex.def)             Requested size: 333.0468pt x 431.81659pt.
- [19
+ [18
 
- <./sequenceDiagrams/updateAccount.png>]) (./cases/searchUser.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34 ...he entered user information can be found.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35     \item T
-                he system notifies the user.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he use case is exited.
-? 
-[20
+ <./sequenceDiagrams/updateAccount.png>]) (./cases/searchUser.tex [19
 
 
 ]
@@ -1452,53 +1247,17 @@ l.36     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/searchUser.png, id=99, 383.4325pt x 441.65pt>
+
+<sequenceDiagrams/searchUser.png, id=88, 383.4325pt x 441.65pt>
 File: sequenceDiagrams/searchUser.png Graphic file (type png)
 
 <use sequenceDiagrams/searchUser.png>
 Package pdftex.def Info: sequenceDiagrams/searchUser.png used on input line 46.
 
 (pdftex.def)             Requested size: 230.06126pt x 264.99203pt.
- [21
+ [20
 
- <./sequenceDiagrams/searchUser.png>]) (./cases/statInterval.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.33 ...ses to change the time using the buttons.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34     \item T
-                he system updates the viewed statistics every time a button ...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41 ...}{No data for the chosen interval exists.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item T
-                he system displays a message instead of the histogram.
-? 
-
-Overfull \hbox (0.54898pt too wide) in paragraph at lines 42--43
-[]\OT1/cmr/m/n/10 The sys-tem dis-plays a mes-sage in-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he use case is exited.
-? 
-[22
+ <./sequenceDiagrams/searchUser.png>]) (./cases/statInterval.tex [21
 
 
 ]
@@ -1534,40 +1293,17 @@ l.43     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/statsInterval.png, id=106, 519.9425pt x 452.69125pt>
+
+<sequenceDiagrams/statsInterval.png, id=95, 519.9425pt x 452.69125pt>
 File: sequenceDiagrams/statsInterval.png Graphic file (type png)
 
 <use sequenceDiagrams/statsInterval.png>
 Package pdftex.def Info: sequenceDiagrams/statsInterval.png used on input line 
 47.
 (pdftex.def)             Requested size: 311.96791pt x 271.61684pt.
- [23
+ [22
 
- <./sequenceDiagrams/statsInterval.png>]) (./cases/statFilter.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 ... for the chosen activity and user exists.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he system displays a message instead of the histogram.
-? 
-
-Overfull \hbox (0.54898pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/10 The sys-tem dis-plays a mes-sage in-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he use case is exited.
-? 
-[24
+ <./sequenceDiagrams/statsInterval.png>]) (./cases/statFilter.tex [23
 
 
 ]
@@ -1603,40 +1339,17 @@ l.37     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/statsFilter.png, id=113, 558.085pt x 551.05875pt>
+
+<sequenceDiagrams/statsFilter.png, id=103, 558.085pt x 551.05875pt>
 File: sequenceDiagrams/statsFilter.png Graphic file (type png)
 
 <use sequenceDiagrams/statsFilter.png>
 Package pdftex.def Info: sequenceDiagrams/statsFilter.png used on input line 41
 .
 (pdftex.def)             Requested size: 334.85359pt x 330.63779pt.
- [25
+ [24
 
- <./sequenceDiagrams/statsFilter.png>]) (./cases/viewStats.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.33 ...}{No data for the chosen activity exists.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34     \item T
-                he system displays a message instead of the histogram.
-? 
-
-Overfull \hbox (0.54898pt too wide) in paragraph at lines 34--35
-[]\OT1/cmr/m/n/10 The sys-tem dis-plays a mes-sage in-
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35     \item T
-                he use case is exited.
-? 
-[26
+ <./sequenceDiagrams/statsFilter.png>]) (./cases/viewStats.tex [25
 
 
 ]
@@ -1672,38 +1385,20 @@ l.35     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/viewStats.png, id=121, 505.89pt x 387.4475pt>
+
+<sequenceDiagrams/viewStats.png, id=110, 505.89pt x 387.4475pt>
 File: sequenceDiagrams/viewStats.png Graphic file (type png)
 
 <use sequenceDiagrams/viewStats.png>
 Package pdftex.def Info: sequenceDiagrams/viewStats.png used on input line 39.
 (pdftex.def)             Requested size: 303.53633pt x 232.47029pt.
- [27
+ [26
 
  <./sequenceDiagrams/viewStats.png>])
-(./cases/setAutoActivate.tex [28
+(./cases/setAutoActivate.tex [27
 
 
-]) (./cases/setFlag.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36 ... set to the desired state by another user}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he system displays a error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he use case is exited.
-? 
-[29
+]) (./cases/setFlag.tex [28
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1738,48 +1433,17 @@ l.38     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/setFlag.png, id=131, 497.86pt x 441.65pt>
+
+<sequenceDiagrams/setFlag.png, id=120, 497.86pt x 441.65pt>
 File: sequenceDiagrams/setFlag.png Graphic file (type png)
 
 <use sequenceDiagrams/setFlag.png>
 Package pdftex.def Info: sequenceDiagrams/setFlag.png used on input line 42.
 (pdftex.def)             Requested size: 298.71829pt x 264.99203pt.
- [30
+ [29
 
  <./sequenceDiagrams/setFlag.png>])
-(./cases/passwordRecovery.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40 ...t}{4}{a}{The entered data does not exist.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41     \item T
-                he system shows an error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44 ...d password does not fulfill the criteria.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he system show an message that the password did not fulfill ...
-
-? 
-[31
+(./cases/passwordRecovery.tex [30
 
 
 ]
@@ -1815,58 +1479,17 @@ l.45     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/passwordRecovery.png, id=138, 713.66624pt x 692.5875pt>
+
+<sequenceDiagrams/passwordRecovery.png, id=128, 713.66624pt x 692.5875pt>
 File: sequenceDiagrams/passwordRecovery.png Graphic file (type png)
 
 <use sequenceDiagrams/passwordRecovery.png>
 Package pdftex.def Info: sequenceDiagrams/passwordRecovery.png used on input li
 ne 55.
 (pdftex.def)             Requested size: 428.20305pt x 415.5557pt.
- [32
+ [31
 
- <./sequenceDiagrams/passwordRecovery.png>]) (./cases/addAdminRights.tex
-Overfull \hbox (0.38225pt too wide) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/10 The ad-min-is-tra-tor ac-ti-vates the ad-min-is-tra-tor list 
-and searches
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36 ...he entered user information can be found.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item D
-                isplay error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he use case is exited.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41 ... no longer have administrator privileges.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item D
-                isplay error message.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item R
-                eturn to the main page.
-? 
-[33
+ <./sequenceDiagrams/passwordRecovery.png>]) (./cases/addAdminRights.tex [32
 
 
 ]
@@ -1902,48 +1525,28 @@ l.43     \item R
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <sequenceDiagrams/addAdminRights.png, id=146, 528.97626pt x 607.26875pt>
+
+<sequenceDiagrams/addAdminRights.png, id=135, 528.97626pt x 607.26875pt>
 File: sequenceDiagrams/addAdminRights.png Graphic file (type png)
 
 <use sequenceDiagrams/addAdminRights.png>
 Package pdftex.def Info: sequenceDiagrams/addAdminRights.png used on input line
  53.
 (pdftex.def)             Requested size: 317.3882pt x 364.36406pt.
- [34
+ [33
 
  <./sequenceDiagrams/addAdminRights.png>]) (./cases/revokeAdminRights.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34 ...ministrator tries to remove him-/herself.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35     \item T
-                he system notifies the administrator that an admin cannot re...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37 ...rator no longer has administrator rights.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he system notifies the (former) administrator that he/she is...
-
-? 
-
-Overfull \hbox (0.82681pt too wide) in paragraph at lines 38--39
-\OT1/cmr/m/n/10 ad-min-is-tra-tor that he/she is miss-
+Overfull \hbox (8.976pt too wide) in paragraph at lines 1--1
+[]\OT1/qbk/b/n/14.4 Revoke Ad-min-is-tra-tor Rights from User 
  []
 
-[35
+
+Overfull \hbox (1.30664pt too wide) in paragraph at lines 38--39
+[]\OT1/qbk/m/n/10 The sys-tem no-ti-fies the (for-mer) ad-min-is-tra-tor that h
+e/she is miss-
+ []
+
+[34
 
 
 ]
@@ -1980,401 +1583,42 @@ Overfull \hbox (0.82681pt too wide) in paragraph at lines 38--39
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<sequenceDiagrams/revokeAdminRights.png, id=153, 522.95375pt x 488.82625pt>
+<sequenceDiagrams/revokeAdminRights.png, id=142, 522.95375pt x 488.82625pt>
 File: sequenceDiagrams/revokeAdminRights.png Graphic file (type png)
 
 <use sequenceDiagrams/revokeAdminRights.png>
 Package pdftex.def Info: sequenceDiagrams/revokeAdminRights.png used on input l
 ine 48.
 (pdftex.def)             Requested size: 313.77466pt x 293.298pt.
- [36
+ [35
 
- <./sequenceDiagrams/revokeAdminRights.png>]) (./cases/geofence.tex
-Overfull \hbox (1.18788pt too wide) in paragraph at lines 14--15
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion is run-ning, ei-ther in fore-ground or bac
-k-ground. 
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.28 ...is already inside the geofence perimeter.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.29 \item T
-            he basic flow continues at step 3.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.31 ...on that the coffee machine already is on.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.32 \item T
-            he use case ends without any other action.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.34 ... functionality is disabled in the server.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 \item T
-            he application notifies the user that the notification is disabl...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36 \item T
-            he application turns the geofence functionality off inside the s...
-
-? 
-
-Overfull \hbox (3.63237pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion turns the ge-ofence
- []
-
-[37
+ <./sequenceDiagrams/revokeAdminRights.png>]) (./cases/geofence.tex [36
 
 
-]) (./cases/geofenceSettingsDisable.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37 ...ofence functionality is already disabled.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he smartphone enables the geofence functionality.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40 ...dy disabled, and the GPS hardware is off.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41     \item T
-                he smartphone notifies the user that the GPS hardware, requi...
+]) (./cases/geofenceSettingsDisable.tex [37
 
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item T
-                he smartphone asks the user if he or she wants to enable the...
-
-? 
-
-Overfull \hbox (0.28506pt too wide) in paragraph at lines 42--43
-\OT1/cmr/m/n/10 he or she wants to en-able the GPS
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he user agrees.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44     \item T
-                he smartphone enables the GPS hardware.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he smartphone enables the geofence functionality.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.46 ...begin{innerList}{3}{a}{The user declines.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.47       \item T
-                  he use case is terminated.
-? 
-
-Overfull \hbox (13.91026pt too wide) in paragraph at lines 47--48
-[]\OT1/cmr/m/n/10 The use
- []
-
-
-Overfull \hbox (7.29913pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/10 case is
- []
-
-
-Overfull \hbox (7.21584pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/10 ter-mi-
- []
-
-
-Overfull \hbox (7.74364pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/10 nated. 
- []
-
-[38
-
-]) (./cases/geofenceTimeSpan.tex
-Overfull \hbox (9.8684pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/14.4 Geofence Set-tings: Edit High-Frequency Time
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36 ...ft arrow to the right of the right arrow.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he smartphone stops the left arrow from sliding over the rig...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.39 ...ight arrow to the left of the left arrow.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40     \item T
-                he smartphone stops the right arrow from sliding over the le...
-
-? 
-[39
+]) (./cases/geofenceTimeSpan.tex [38
 
 ]) (./cases/geofenceHighFrequency.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 ...umber higher than the application allows.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he application notifies the user that the set frequency is a...
+[39
 
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he application sets the frequency to the maximum number allo...
+]) (./cases/geofenceLowFrequency.tex [40
 
-? 
-
-Overfull \hbox (2.5768pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion sets the fre-quency
+])
+(./cases/geofenceRelativeStatic.tex
+Overfull \hbox (29.84396pt too wide) in paragraph at lines 1--1
+[]\OT1/qbk/b/n/14.4 Geofence Set-tings: Rel-a-tive/Static Fre-quency
  []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he application saves the frequency.
-? 
 
-Overfull \hbox (10.35458pt too wide) in paragraph at lines 38--39
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion saves the fre-quency. 
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40 ...anges the frequency to a negative number.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41     \item T
-                he application notifies the user that the frequency cannot b...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item T
-                he application sets the frequency to 0.
-? 
-
-Overfull \hbox (2.5768pt too wide) in paragraph at lines 42--43
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion sets the fre-quency
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he application saves the frequency.
-? 
-
-Overfull \hbox (10.35458pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion saves the fre-quency. 
- []
-
-[40
-
-]) (./cases/geofenceLowFrequency.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 ...umber higher than the application allows.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he application notifies the user that the set frequency is a...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he application sets the frequency to the maximum number allo...
-
-? 
-
-Overfull \hbox (2.5768pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion sets the fre-quency
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.38     \item T
-                he application saves the frequency.
-? 
-
-Overfull \hbox (10.35458pt too wide) in paragraph at lines 38--39
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion saves the fre-quency. 
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.40 ...anges the frequency to a negative number.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.41     \item T
-                he application notifies the user that the frequency cannot b...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.42     \item T
-                he application sets the frequency to 0.
-? 
-
-Overfull \hbox (2.5768pt too wide) in paragraph at lines 42--43
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion sets the fre-quency
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.43     \item T
-                he application saves the frequency.
-? 
-
-Overfull \hbox (10.35458pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/10 The ap-pli-ca-tion saves the fre-quency. 
+Overfull \hbox (13.88655pt too wide) in paragraph at lines 6--7
+\OT1/qbk/m/n/10 ge-ofence perime-ter in ei-ther a static fre-quency or a rel-a-
+tive fre-quency. 
  []
 
 [41
 
-]) (./cases/geofenceRelativeStatic.tex
-Overfull \hbox (6.9267pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/14.4 Geofence Set-tings: Rel-a-tive/Static Fre-quency
- []
-
-[42
-
-]) (./cases/disableGeofenceInserver.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.35 ...a}{The functionality is already disabled.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.36     \item T
-                he system enables the geofence functionality.
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.37     \item T
-                he system notifies the user that the geofence functionality ...
-
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.44 ...ministrator has lost its elevated rights.}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.45     \item T
-                he system notifies the former administrator about the missin...
-
-? 
-
-Overfull \hbox (1.82678pt too wide) in paragraph at lines 45--46
-[]\OT1/cmr/m/n/10 The sys-tem no-ti-fies the for-mer ad-
- []
-
-
-Overfull \hbox (13.02133pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 min-is-tra-tor about the miss-ing rights. 
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \c@* 
-l.46     \item T
-                he system notifies the user that the state-switch failed.
-? 
-[43
+]) (./cases/disableGeofenceInserver.tex [42
 
 ])
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2409,33 +1653,34 @@ l.46     \item T
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <useCaseDiagram/diagram.jpg, id=179, 1217.54875pt x 932.48375pt>
+
+<useCaseDiagram/diagram.jpg, id=169, 1217.54875pt x 932.48375pt>
 File: useCaseDiagram/diagram.jpg Graphic file (type jpg)
 
 <use useCaseDiagram/diagram.jpg>
 Package pdftex.def Info: useCaseDiagram/diagram.jpg used on input line 67.
 (pdftex.def)             Requested size: 572.248pt x 438.26743pt.
- [44
+ [43
 
 
  <./useCaseDiagram/diagram.jpg>]
 (./index.aux) ) 
 Here is how much of TeX's memory you used:
- 2380 strings out of 493117
- 34697 string characters out of 6141205
- 101832 words of memory out of 5000000
- 5732 multiletter control sequences out of 15000+600000
- 5578 words of font info for 20 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,8n,23p,444b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on index.pdf (49 pages, 3380079 bytes).
+ 12886 strings out of 493308
+ 257434 string characters out of 6137371
+ 300179 words of memory out of 5000000
+ 15994 multiletter control sequences out of 15000+600000
+ 25297 words of font info for 21 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 64i,9n,56p,496b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Programs/texlive/2013/texmf-dist/fonts/enc/dvips/tex-gyre/q-
+rm.enc}<d:/Programs/texlive/2013/texmf-dist/fonts/type1/public/tex-gyre/qbkb.pf
+b><d:/Programs/texlive/2013/texmf-dist/fonts/type1/public/tex-gyre/qbkbi.pfb><d
+:/Programs/texlive/2013/texmf-dist/fonts/type1/public/tex-gyre/qbkr.pfb>
+Output written on index.pdf (45 pages, 3398180 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
