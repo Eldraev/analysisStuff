@@ -3,7 +3,7 @@
 % --Description--
 %
 \begin{cpart}{Description}
-The administrator has to search for users to be able to perform actions such as updating, deletion and deactivation on them. All users must be able to find a specific user to be able to view their statistics. Users should be able to be found by entering their user names or part of their user names.
+The administrator has to search for users to be able to perform actions such as updating, deletion and deactivation on them. All users must be able to find a specific user to be able to view their statistics. Users should be able to be found by entering their user names or part of their user names as well as their emails and role within the system, which is either admin or user.
 \end{cpart}
 
 
@@ -22,15 +22,37 @@ The user is logged in.
 % --Basic Flow--
 %
 \begin{cpartList}{Basic Flow}
-  \item The user enters information in the search field
+  \item The user enters the username in the search field.
   \item The system shows a list of users fitting the search criteria.
   \item The user chooses the desired user from the list.
   \item The system writes a log entry for the activity of the user with the current time and date.
 \end{cpartList}
 
+% --Alternate Flows--
+%
+\begin{cpartList}{Alternate Flows}
+  \begin{innerList}{1}{a}{The user enters part of the username.}
+    \item Continue on step 2 of the basic flow.
+  \end{innerList}
+  \begin{innerList}{1}{b}{The user enters the email.}
+    \item Continue on step 2 of the basic flow.
+  \end{innerList}
+  \begin{innerList}{1}{c}{The user enters the role.}
+    \item Continue on step 2 of the basic flow.
+  \end{innerList}
+\end{cpartList}
+
 % --Exception Flows--
 %
 \begin{cpartList}{Exception Flows}
+  \begin{innerList}{4}{a}{No user with the entered user information can be found.}
+    \item The system notifies the user.
+    \item The use case is exited.
+  \end{innerList}
+  \begin{innerList}{4}{a}{No user with the entered user information can be found.}
+    \item The system notifies the user.
+    \item The use case is exited.
+  \end{innerList}
   \begin{innerList}{4}{a}{No user with the entered user information can be found.}
     \item The system notifies the user.
     \item The use case is exited.
